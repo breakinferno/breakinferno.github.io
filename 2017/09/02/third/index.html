@@ -289,6 +289,15 @@
     <!-- Analytics -->
     
     
+        <script>
+    var _hmt = _hmt || [];
+    (function() {var hm = document.createElement('script');
+    hm.src = 'https://hm.baidu.com/hm.js?18524237d56a3e42c5917aae4daf283b';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+    
     
 
     <!-- Custom Head -->
@@ -409,6 +418,18 @@
     -->
 
     <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACXklEQVR42u3aUXLCMAwE0Nz/0u0BKGElJY7LvHwxQIlfPix3pePnq68DDw8PDw8PDw9vM94RX69/9e6d5PXr3f9YaG9teHh4eEt4H7ba0+VW30nYvbXh4eHhree923AT3jnjqgJzvjY8PDy8nXnJtn6+ledFBQ8PD++/85KYIHko0eEYDw8Pb3te9caTMCIvBkuzFjw8PLyYlzeZ1r9e2t/Dw8PDC3jlkab4wJ030nqhRjR0hYeHh3cDbzI6kLCvijaSdhoeHh7eGl4euSZRbA7OfznH4+Hh4T3Lq+Inh+/qEfxDIw0PDw9vCS9vbiXgZEQgH3u9OMbFw8PDu5RXbYNNmlV5MSiPw+Lh4eHdzKtu6L0wtxpSTMJcPDw8vLt5ecA6H0udP9boXnh4eHgLefmmXz1wV4/Rk1EGPDw8vDW8Uau++Gk+dJUfr/Hw8PCe5eXH2WtHV3vjWXh4eHjreQ/ErDG7WkLw8PDw1vPypSQlpLqsBB/9Ah4eHt4SXhXZixWqD+KCMAIPDw/vNl4eNOQDAVXwJAjGw8PDe4pXjVOrB+Jq8yy/Fx4eHt5uvPz422utVQvGxYUBDw8Pr8XLB556DbNeqehFG3h4eHh383ob+iSqSB7o5LCOh4eHdzfviK9qTFCNMKrDrKMjNR4eHt6YN9ni8+XmBSMpDIX/GPDw8PBu4/WOuXnZyAtAtUTh4eHh7c+rfjoPeQu/g4eHh7c9L1lE/p3e48DDw8N7ilcNI/LGf6/NVg0s8PDw8Fby8ghgElgkwW4vwsDDw8Nbyfu+Cw8PDw8PDw8Pb4PrFxKWB0oKcZvIAAAAAElFTkSuQmCC">
+    
+</ul>
+
     
 
     <!-- Tags (bookmark) -->
@@ -579,6 +600,24 @@
                     </a>
                 </li>
             
+                <li>
+                    <a href="" target="_blank" title="Tel 18384222186">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">call</i>
+                        
+                        Tel 18384222186
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="" target="_blank" title="QQ 1972952841">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">chat</i>
+                        
+                        QQ 1972952841
+                    </a>
+                </li>
+            
         </ul>
     </li>
 
@@ -592,6 +631,8 @@
                 主页
             </a>
         </li>
+        
+            <li class="divider"></li>
         
     
 
@@ -611,12 +652,41 @@
             </ul>
         </li>
         
+            <li class="divider"></li>
+        
     
 
     <!-- Categories  -->
     
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                分类
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                
+            </ul>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
 
     <!-- Pages  -->
+    
+        <li>
+            <a href="/resume" title="Resume">
+                
+                    <i class="material-icons sidebar-material-icons">portrait</i>
+                
+                Resume
+            </a>
+        </li>
+        
     
         <li>
             <a href="/about" title="About">
@@ -630,6 +700,16 @@
     
 
     <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                文章总数
+                <span class="sidebar-badge">4</span>
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
     
 </ul>
 
@@ -679,6 +759,12 @@ It will not impact the appearance and can give developers a lot of support :)
 
     <!-- Sidebar Image -->
     
+    <span id="footer-image">
+        <a href="https://github.com/breakinferno/" target="_blank" title="upyun_logo">
+            <img src="/img/upyun_logo.svg" alt="upyun_logo"><!--
+     --></a>
+    </span>
+
 
 </aside>
 
@@ -769,7 +855,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
         <!--Copyright-->
         <div id="copyright">
-            Copyright&nbsp;©<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>吕飞的博纳阁
+            Copyright&nbsp;©&nbsp;2017&nbsp;-<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>吕飞的博纳阁
             
         </div>
 
