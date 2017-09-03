@@ -538,7 +538,7 @@ a {
     display: flex;
     box-sizing: border-box;
     padding: 24.72px;
-    background-size: cover;
+    background-size: 100% 100%;
     cursor: pointer;
     flex-grow: 1;
     flex-direction: row;
@@ -2065,11 +2065,11 @@ a {
     background-color: #e91e63
 }
 .sidebar-colored .sidebar-toggle {
-    color: #f5f5f5;
+    color: #232323;
     background-color: transparent
 }
 .sidebar-colored .sidebar-brand {
-    color: #e0e0e0;
+    color: #000000;
     background-color: transparent
 }
 .sidebar-colored .sidebar-brand:focus,
@@ -2157,8 +2157,8 @@ a {
     transform: translate3d(-280px, 0, 0)
 }
 .sidebar.open {
-    min-width: 280px;
-    width: 280px;
+    min-width: 300px;
+    width: 320px;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0)
 }
@@ -2209,7 +2209,7 @@ a {
     width: 32px
 }
 .MD-burger-layer {
-    width: 20px;
+    width: 30px;
     background: #eee;
     position: relative;
     -webkit-animation-duration: 300ms;
@@ -2220,7 +2220,7 @@ a {
 .MD-burger-layer:after,
 .MD-burger-layer:before {
     display: block;
-    height: 2px;
+    height: 4px;
     -webkit-animation-timing-function: ease-in-out
 }
 .MD-burger-layer:after,
@@ -2235,10 +2235,10 @@ a {
     animation-timing-function: ease-in-out
 }
 .MD-burger-layer:before {
-    bottom: 5px
+    bottom: 9px
 }
 .MD-burger-layer:after {
-    top: 5px
+    top: 9px
 }
 .MD-burger-arrow {
     -webkit-animation-name: MD-burger-icon-arrow;
