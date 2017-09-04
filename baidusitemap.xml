@@ -3,6 +3,8 @@
 
 
     
+    
+    
   <url>
     <loc>http://breakinferno.info/2017/09/04/build-blog-with-hexo/</loc>
     <lastmod>2017-09-04T07:57:59.000Z</lastmod>
@@ -11,6 +13,10 @@
         <title>build blog with hexo</title>
         <pubTime>2017-09-04T07:57:59.000Z</pubTime>
         
+        <tag>hexo</tag>
+         
+        <tag>github</tag>
+         
          
            
         </display>

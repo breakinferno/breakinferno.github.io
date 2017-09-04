@@ -39,8 +39,6 @@
     
     <title>
         
-            归档: 2017/9 | 
-        
         吕飞的博纳阁
     </title>
 
@@ -228,7 +226,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://breakinferno.info">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="归档: 2017/9 | 吕飞的博纳阁">
+    <meta property="og:title" content="吕飞的博纳阁">
     <meta property="og:image" content="http://breakinferno.info/img/favicon.png" />
     <meta property="og:description" content="">
     
@@ -236,7 +234,7 @@
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="归档: 2017/9 | 吕飞的博纳阁">
+    <meta name="twitter:title" content="吕飞的博纳阁">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://breakinferno.info/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -244,7 +242,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://breakinferno.info/archives/2017/09/index.html" />
+        <link rel="canonical" href="http://breakinferno.info/about/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -293,95 +291,227 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
-    
-        
-    
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 41 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/09/04/build-blog-with-hexo/">build blog with hexo</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            吕飞mdzz
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/09/04/build-blog-with-hexo/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="吕飞's avatar">
-            </div>
-            <div>
-                <strong>吕飞</strong>
-                <span>9月 04, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 41 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>吕飞</strong>
+        <span>9月 04, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAAB6klEQVR42u3aQXLCQAwEQP7/6eTKITgzWicYb/tEUQarOQhppcfXLa4HBgYGBgYGBsZlGI/4er7/1evnd3548OF35jFgYGDsyfgltb0I/Ti4/HvaGDAwMHZmJEn2+MGzO4cxYGBgYMSPOS4Q2x8FAwMD46yEmwT9svnEwMDAWGAUDeQCOP/UH/biGBgYH8g4azCw8vpC8w0MDIyLMeoVh8Pku15u/tPOCAYGxkcx8sOytpVtlzDyqDAwMPZktKGvjCTbErBuYjEwMG7KaMu+WZG30tzWpSEGBsaNGPmQoD2ASxjJzxQlXAwMjFsz1tcjzqUWrS8GBsY2jJVjtZUhaJumo/8NDAyMWzOSgKLGMlk8jZPycNkCAwPjdoy2jJstW+TFaFGGYmBgbMZYPwKbpdrZQRsGBsZujLMGk/njV1I5BgbGnozZgkV+f75kVt+PgYGxDaMdH86GlMM2FQMDA6MMPQkrP9xvB58YGBgY+ZWsXLQJuh2jYmBg7MaYLXXNDtHaNYvhJBYDA+OmjCTJ5mHNWtl2PICBgbEnY72Mm40n80YXAwMDoy3d2pZ1ZbEMAwMDY73JbEcFSQGKgYGBMWtiZwVfPi4t2l0MDIzNGO1gIA+xXb/AwMDAWF+2uM6FgYGBgYGBgfHW6xsuFO4DVX9WfAAAAABJRU5ErkJggg==">
+    
+</ul>
+
+    
+
+    <!-- Tags (bookmark) -->
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+        
+            <!-- Busuanzi Views -->
+            <a class="post_share-link" href="#">
+                <li class="mdl-menu__item">
+                    <span id="busuanzi_container_page_pv">
+                        <span id="busuanzi_value_page_pv"></span>&nbsp;浏览量
+                    </span>
+                </li>
+            </a>
+        
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=&url=http://breakinferno.info/about/index.html&pic=http://breakinferno.info/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=&url=http://breakinferno.info/about/index.html&via=吕飞" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://breakinferno.info/about/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://breakinferno.info/about/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=吕飞的博纳阁&title=&summary=&pics=http://breakinferno.info/img/favicon.png&url=http://breakinferno.info/about/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://breakinferno.info/about/index.html&text=" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h1 id="关于我-–现在还不知道建设啥！"><a href="#关于我-–现在还不知道建设啥！" class="headerlink" title="关于我 –现在还不知道建设啥！"></a>关于我 –现在还不知道建设啥！</h1><h3 id="手机号"><a href="#手机号" class="headerlink" title="手机号"></a>手机号</h3><h3 id="QQ"><a href="#QQ" class="headerlink" title="QQ"></a>QQ</h3><h3 id="github"><a href="#github" class="headerlink" title="github"></a>github</h3><h3 id="wechat"><a href="#wechat" class="headerlink" title="wechat"></a>wechat</h3><h2 id="谢谢你的足迹到过这里"><a href="#谢谢你的足迹到过这里" class="headerlink" title="谢谢你的足迹到过这里"></a>谢谢你的足迹到过这里</h2>
+        
+    
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 gitcoment -->
+<div id="gitment-comment">
+    <!-- Gitment 评论框 -->
+<div id="container"></div>
+</div>
+<style>
+    #gitment-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    var gitment = new Gitment({
+        //id: '页面 ID', // 可选。默认为 location.href
+        owner: 'breakinferno',
+        repo: 'breakinferno.github.io',
+        oauth: {
+            client_id: '0b8298d1c22589e4dbfd',
+            client_secret: 'a7275c5822f739ec364759f3c155804bc7735e78',
+        },
+    })
+    gitment.render('container')
+</script>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -648,14 +778,6 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
-
-                    
-                        <!-- Footer Top Button -->
-                        <div id="back-to-top" class="toTop-wrap">
-    <a href="#top" class="toTop">
-        <i class="material-icons footer_top-i">expand_less</i>
-    </a>
-</div>
 
                     
 

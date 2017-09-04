@@ -847,7 +847,8 @@ a {
     padding: 40px;
     height: 120px;
     background-color: #fff;
-    align-items: center
+    align-items: center;
+    position: relative;
 }
 @media screen and (max-width: 840px) {
     #scheme-Paradox .material-layout .mdl-mini-footer {
