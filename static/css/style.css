@@ -200,12 +200,8 @@ progress::-moz-progress-value {
     height:160px;
 }
 
-@media (max-width: 768px) {
-    .container{
-        width: 1000%;
-    }
-    
-}
+
+
 .container {
     position: relative;
     max-width: 1300px;
@@ -294,3 +290,18 @@ ul li{
 }
 
 
+@media (max-width: 768px) {
+    .main{
+       width: 100%;
+       margin-left: 0px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .side{
+        position: relative;
+    }
+}
