@@ -22,20 +22,14 @@
   
     
     <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title></title>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<h1 id="关于我-–现在还不知道建设啥！"><a href="#关于我-–现在还不知道建设啥！" class="headerlink" title="关于我 –现在还不知道建设啥！"></a>关于我 –现在还不知道建设啥！</h1><h3 id="手机号"><a href="#手机号" class="headerlink" title="手机号"></a>手机号</h3><h3 id="QQ"><a href="#QQ" class="headerlink" title="QQ"></a>QQ</h3><h3 id="github"><a href="#github" class="headerlink" title="github"></a>github</h3><h3 id="wechat"><a href="#wechat" class="headerlink" title="wechat"></a>wechat</h3><h2 id="谢谢你的足迹到过这里"><a href="#谢谢你的足迹到过这里" class="headerlink" title="谢谢你的足迹到过这里"></a>谢谢你的足迹到过这里</h2>]]></content>
     </entry>
     
     <entry>
-      <title></title>
-      <url>/resume/index.html</url>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery/index.html</url>
       <content type="html"></content>
     </entry>
     
@@ -54,6 +48,12 @@
     <entry>
       <title><![CDATA[timeline]]></title>
       <url>/timeline/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>/resume/index.html</url>
       <content type="html"></content>
     </entry>
     
