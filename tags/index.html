@@ -849,10 +849,19 @@ It will not impact the appearance and can give developers a lot of support :)
                     right: 30px;
                 }
 
-                @media screen and (max-width: 240px){
-                    right: 4px;
-                    width: 24px;
-                    height: 48px;
+                @media (min-width: 240px){
+                    #live2dcanvas{
+                        right: 24px;
+                        width: 24px;
+                        height: 48px;  
+                    }
+                }     
+
+                @media (max-width: 768px){
+                    #live2dcanvas{
+                        width: 150px;
+                        height: 200px;   
+                    }
                 }
             </style>
         </body>

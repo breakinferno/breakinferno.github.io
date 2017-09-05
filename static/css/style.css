@@ -228,6 +228,13 @@ progress::-moz-progress-value {
 
 }
 
+@media (max-width: 768px) {
+    .main{
+        width: 1000%;
+    }
+    
+}
+
 .info-header:hover {
     background-color: #d4dee4;
 }
