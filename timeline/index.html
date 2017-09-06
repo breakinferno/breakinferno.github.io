@@ -696,23 +696,73 @@
    	   		
 			<div class="md-timeline-block">
                 		<div class="md-timeline-date blue">
-                   			<div class="md-date">9月 04 2017</div>
+                   			<div class="md-date">9月 06 2017</div>
                 		</div>
 
                 		<div class="md-timeline-content">
-                    			<div class="md-timeline-title"><a href="/2017/09/04/build-blog-with-hexo/">build blog with hexo</a></div>
+                    			<div class="md-timeline-title"><a href="/2017/09/06/algorithm-1/">算法100题之第一题--对称字符串最大长度</a></div>
 					<div class="md-timeline-info">
 						<span class="md-timeline-info-span">Categories:
-							
+							<a class="category-link" href="/categories/algorithm/">algorithm</a>
 						</span>
 						<span class="md-timeline-info-span">Tags:
-							<a class="tag-link" href="/tags/github/">github</a>, <a class="tag-link" href="/tags/hexo/">hexo</a>
+							<a class="tag-link" href="/tags/algorithm/">algorithm</a>, <a class="tag-link" href="/tags/javascript/">javascript</a>
 						</span>
 						
 					</div>
 					<p class="md-timeline-excerpt">
 						
-							吕飞mdzz
+							对称字符串的最大长度
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 06 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/09/06/hexo-blog/">hexo-blog</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							坑爹的地方：yml空格plugins使用不用显示在_config.yml文件中使用plugins: - plugin模式，安装直接使用就是
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 06 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/09/06/markdown/">初探 markdown</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/language/">language</a>, <a class="category-link" href="/categories/language/markdown/">markdown</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/mark-language/">mark language</a>, <a class="tag-link" href="/tags/markdown/">markdown</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							0. 前言万事万物都有因有果，这篇博客的由来是由于断断续续搞了三天才把博客搭起来了。虽然SEO还有问题，这没办法了。所以这里为自己的博客开个头，来一个简单无脑的博文犒劳犒劳自己–复习复习markdown的基本语法！
+
 						...
 					</p>
                     		</div>
@@ -831,7 +881,7 @@
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">1</span></a>
+                <a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">3</span></a>
             </ul>
         </li>
         
@@ -849,7 +899,7 @@
             </a>
             <ul class="dropdown-menu">
                 <li>
-                
+                <a class="sidebar_archives-link" href="/categories/algorithm/">algorithm<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/language/">language<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/language/markdown/">markdown<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
         
@@ -931,7 +981,7 @@
         <li>
             <a href="/archives">
                 文章总数
-                <span class="sidebar-badge">1</span>
+                <span class="sidebar-badge">3</span>
             </a>
         </li>
         
@@ -1233,7 +1283,7 @@ It will not impact the appearance and can give developers a lot of support :)
                     right: 30px;
                 }
 
-                @media (min-width: 240px){
+                @media (max-width: 240px){
                     #live2dcanvas{
                         right: 24px;
                         width: 24px;
@@ -1243,11 +1293,11 @@ It will not impact the appearance and can give developers a lot of support :)
 
                 @media (max-width: 768px){
                     #live2dcanvas{
-                        width: 150px;
-                        height: 200px;   
+                        width: 145px;
+                        height: 180px;   
                     }
                 }
-                
+
                 @media (max-width: 400px){
                     #live2dcanvas{
                         width: 100px;
@@ -1255,6 +1305,20 @@ It will not impact the appearance and can give developers a lot of support :)
                     }
                 }
             </style>
+            <script type="text/javascript">
+                var adjustFooter = function() {
+                    if( $('#main').outerHeight() < $(window).height() ) {
+                        var footerBottom = $(window).height() - $('#main').outerHeight();
+                        $('#bottom').css('bottom', '-' + footerBottom + 'px');
+                    } 
+                }; 
+                $(document).ready(function() {
+                    adjustFooter();
+                });
+                $(window).resize(function(){
+                    adjustFooter();
+                })
+            </script>
         </body>
     
 </html>

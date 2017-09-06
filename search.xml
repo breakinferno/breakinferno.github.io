@@ -3,16 +3,168 @@
   
     
     <entry>
-      <title><![CDATA[build blog with hexo]]></title>
-      <url>/2017/09/04/build-blog-with-hexo/</url>
-      <content type="html"><![CDATA[<h1 id="吕飞"><a href="#吕飞" class="headerlink" title="吕飞"></a>吕飞</h1><h2 id="mdzz"><a href="#mdzz" class="headerlink" title="mdzz"></a>mdzz</h2>]]></content>
+      <title><![CDATA[算法100题之第一题--对称字符串最大长度]]></title>
+      <url>/2017/09/06/algorithm-1/</url>
+      <content type="html"><![CDATA[<h3 id="对称字符串的最大长度"><a href="#对称字符串的最大长度" class="headerlink" title="对称字符串的最大长度"></a>对称字符串的最大长度</h3><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       
+        <categories>
+            
+            <category> algorithm </category>
+            
+        </categories>
+        
         
         <tags>
             
-            <tag> hexo </tag>
+            <tag> algorithm </tag>
             
-            <tag> github </tag>
+            <tag> javascript </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[hexo-blog]]></title>
+      <url>/2017/09/06/hexo-blog/</url>
+      <content type="html"><![CDATA[<p>坑爹的地方：yml空格<br>plugins使用不用显示在_config.yml文件中使用plugins: - plugin模式，安装直接使用就是</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[初探 markdown]]></title>
+      <url>/2017/09/06/markdown/</url>
+      <content type="html"><![CDATA[<h3 id="0-前言"><a href="#0-前言" class="headerlink" title="0. 前言"></a>0. 前言</h3><p>万事万物都有因有果，这篇博客的由来是由于断断续续搞了三天才把博客搭起来了。虽然SEO还有问题，这没办法了。所以这里为自己的博客开个头，来一个简单无脑的博文犒劳犒劳自己–复习复习markdown的基本语法！</p>
+<h3 id="index">1. 目录</h3>
+
+<ul>
+<li><a href="#index">1. 目录</a></li>
+<li><a href="#index1">2. markdown 介绍</a> </li>
+<li><a href="#index2">3. 工具选取</a></li>
+<li><a href="#index3">4. 语法连接</a><ul>
+<li><a href="#index3_font">4.1 斜体、粗体和删除线</a></li>
+<li><a href="#index3_title">4.2 标题</a></li>
+<li><a href="#index3_link">4.3 超链接</a><ul>
+<li><a href="#index3_link_inline">4.3.1 行内式</a></li>
+<li><a href="#index3_link_reference">4.3.2 参考式</a></li>
+<li><a href="#index3_link_autolink">4.3.3 自动链接</a> </li>
+</ul>
+</li>
+<li><a href="#index3_pot">4.4 锚点</a></li>
+<li><a href="#index3_list">4.5 列表</a><ul>
+<li><a href="#index3_list_ul">4.5.1 无序列表</a></li>
+<li><a href="#index3_list_ol">4.5.2 有序列表</a></li>
+</ul>
+</li>
+<li><a href="#index3_depend">4.6 引用</a></li>
+<li><a href="#index3_img">4.7 图像</a></li>
+<li><a href="#index3_index">4.8 内容目录</a></li>
+</ul>
+<ul>
+<li><a href="#index3_equaltor">4.9 公式</a></li>
+<li><a href="#index3_taskflow">4.10 流程图</a></li>
+</ul>
+<ul>
+<li><a href="#index3_table">4.11 表格</a></li>
+<li><a href="#index3_septemeter">4.12 分隔线</a></li>
+<li><a href="#index3_code">4.13 代码</a></li>
+</ul>
+</li>
+<li><a href="#index4">5. 其他连接</a></li>
+<li><a href="#index5">6. 遇见的问题</a></li>
+</ul>
+<h3 id="index1">2. markdown 介绍</h3>
+
+<p>Markdown是一种轻量级的<strong>「标记语言」</strong>,赋予了普通文本文件格式化的功能，同时又保持了文本文件的简洁。</p>
+<h4 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h4><blockquote>
+<ul>
+<li>Markdown简单易用、可读、直观、学习成本低。</li>
+<li>纯文本，兼容性极强，可以用所有编辑器打开</li>
+<li>让你专注文字而不是排版</li>
+<li>格式转变方便，可以转为pdf,html,电子书等</li>
+<li>标记语法具有很好的可读性</li>
+</ul>
+</blockquote>
+<h3 id="index2">3. 工具选取</h3>
+
+<p>markdown有很多编辑器或者在线编辑器。这里推荐几个。</p>
+<h4 id="在线编辑网站"><a href="#在线编辑网站" class="headerlink" title="在线编辑网站"></a>在线编辑网站</h4><ol>
+<li><a href="https://www.zybuluo.com/mdeditor" target="_blank" rel="external">Cmd Markdown编辑器</a>:作业部落出品，也是一款不错的工具和博客平台兼顾的产品。全平台且提供web版</li>
+<li><a href="http://mahua.jser.me/" target="_blank" rel="external">MaHua 在线Markdown编辑器</a>:小众软件推荐，界面有些简陋</li>
+<li><a href="http://dillinger.io/" target="_blank" rel="external">dillinger Markdown编辑器</a>:漂亮强大，支持md, html, pdf 文件导出。支持dropbox, onedrive，google drive, github. 来自国外，可能不够稳定.</li>
+<li><a href="http://www.jianshu.com/" target="_blank" rel="external">简书</a>:一个很不错的博客平台，每几秒钟便会自动存入一个备份。可以直接从本地拖入照片生成链接，一直在不断优化。作为一个博客平台，需要注册账号后方能进行写作</li>
+<li><a href="https://maxiang.io/" target="_blank" rel="external">马克飞象</a>:跟印象笔记有关，没用过。</li>
+<li><a href="http://markdown.xiaoshujiang.com/" target="_blank" rel="external">小书匠编辑器</a>:全平台覆盖并且有web版</li>
+</ol>
+<h4 id="本地编辑器软件"><a href="#本地编辑器软件" class="headerlink" title="本地编辑器软件"></a>本地编辑器软件</h4><ol>
+<li><a href="http://www.sublimetext.com/3" target="_blank" rel="external">sublime text</a>:轻量强大的编辑器，下载插件即可使用(ps:ctrl+shift+p install package;下载markdown Editing 和 markdownlivepreview插件即可)</li>
+<li><a href="https://atom.io/" target="_blank" rel="external">atom</a>:也是一款强大的编辑器，github打造，然而不知为何我打开就卡死。。。。。。Orz</li>
+<li>其他的自己搜吧</li>
+</ol>
+<p></p><h3 id="index3">4. 语法链接</h3>‘<p></p>
+<h4 id="index3_font">4.1 斜体、粗体和删除线</h4>
+
+<p>其实很简单*和_标志斜体或者粗体。斜体一个，粗体两个，又斜又粗那就三个，删除线使用两个~~。具体看如下代码吧：</p>
+<p><strong>代码:</strong></p>
+<div class="spoiler collapsed"><div class="spoiler-title">code</div><div class="spoiler-content"><ol>
+<li><em>斜体</em>或者<em>斜体</em></li>
+<li><strong>粗体</strong>或者<strong>粗体</strong></li>
+<li><strong><em>加粗斜体</em></strong>或者<strong><em>加粗斜体</em></strong></li>
+<li><del>删除线</del></li>
+</ol>
+</div></div>
+<p><strong>显示效果：</strong></p>
+<div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"><blockquote>
+<ol>
+<li><em>斜体</em>或者<em>斜体</em></li>
+<li><strong>粗体</strong>或者<strong>粗体</strong></li>
+<li><strong><em>加粗斜体</em></strong>或者<strong><em>加粗斜体</em></strong></li>
+<li><del>删除线</del></li>
+</ol>
+</blockquote>
+</div></div>
+<h4 id="index3_title">4.2 标题</h4>
+
+<p>这里有两种方法，我只推荐使用第二种，如下：</p>
+<h6 id="第一种"><a href="#第一种" class="headerlink" title="第一种"></a>第一种</h6><p><strong>代码:</strong></p>
+<div class="spoiler collapsed"><div class="spoiler-title">code</div><div class="spoiler-content"><p>1.这是一个一级标题<br>2.===============<br>3.<br>4.这是一个二级标题<br>5.—————</p>
+</div></div>
+<p><strong>效果:</strong></p>
+<div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"><blockquote>
+<h1 id="1-这是一个一级标题"><a href="#1-这是一个一级标题" class="headerlink" title="1. 这是一个一级标题"></a>1. 这是一个一级标题</h1><h2 id="2-这是一个二级标题"><a href="#2-这是一个二级标题" class="headerlink" title="2. 这是一个二级标题"></a>2. 这是一个二级标题</h2></blockquote>
+</div></div>
+<h6 id="第二种"><a href="#第二种" class="headerlink" title="第二种"></a>第二种</h6><p><strong>代码：</strong></p>
+<div class="spoiler collapsed"><div class="spoiler-title">code</div><div class="spoiler-content"><p>1.# 一级标题<br>2.## 二级标题<br>3.### 三级标题<br>4.#### 四级标题<br>5.##### 五级标题<br>6.###### 六级标题</p>
+</div></div>
+<p><strong>效果:</strong></p>
+<div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"><blockquote>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></blockquote>
+</div></div>
+<h4 id="index3_link">4.3 超链接</h4>
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      
+        <categories>
+            
+            <category> language </category>
+            
+            <category> markdown </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> markdown </tag>
+            
+            <tag> mark language </tag>
             
         </tags>
         
@@ -22,39 +174,39 @@
   
     
     <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title></title>
       <url>/about/index.html</url>
-      <content type="html"><![CDATA[<h1 id="关于我-–现在还不知道建设啥！"><a href="#关于我-–现在还不知道建设啥！" class="headerlink" title="关于我 –现在还不知道建设啥！"></a>关于我 –现在还不知道建设啥！</h1><h3 id="手机号"><a href="#手机号" class="headerlink" title="手机号"></a>手机号</h3><h3 id="QQ"><a href="#QQ" class="headerlink" title="QQ"></a>QQ</h3><h3 id="github"><a href="#github" class="headerlink" title="github"></a>github</h3><h3 id="wechat"><a href="#wechat" class="headerlink" title="wechat"></a>wechat</h3><h2 id="谢谢你的足迹到过这里"><a href="#谢谢你的足迹到过这里" class="headerlink" title="谢谢你的足迹到过这里"></a>谢谢你的足迹到过这里</h2>]]></content>
-    </entry>
-    
-    <entry>
-      <title></title>
-      <url>/resume/index.html</url>
-      <content type="html"></content>
+      <content type="html"><![CDATA[<h1 id="关于我-–现在还不知道建设啥！"><a href="#关于我-–现在还不知道建设啥！" class="headerlink" title="关于我 –现在还不知道建设啥！"></a>关于我 –现在还不知道建设啥！</h1><h3 id="手机号"><a href="#手机号" class="headerlink" title="手机号"></a>手机号</h3><h3 id="QQ"><a href="#QQ" class="headerlink" title="QQ"></a>QQ</h3><h3 id="github"><a href="#github" class="headerlink" title="github"></a>github</h3><h3 id="wechat"><a href="#wechat" class="headerlink" title="wechat"></a>wechat</h3><h2 id="谢谢你的足迹到过这里"><a href="#谢谢你的足迹到过这里" class="headerlink" title="谢谢你的足迹到过这里"></a>谢谢你的足迹到过这里</h2><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[links]]></title>
       <url>/links/index.html</url>
-      <content type="html"></content>
+      <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
     </entry>
     
     <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags/index.html</url>
-      <content type="html"></content>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery/index.html</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>/resume/index.html</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[timeline]]></title>
       <url>/timeline/index.html</url>
-      <content type="html"></content>
+      <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags/index.html</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
     </entry>
     
   

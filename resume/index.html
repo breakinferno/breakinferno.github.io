@@ -581,7 +581,7 @@
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">1</span></a>
+                <a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">3</span></a>
             </ul>
         </li>
         
@@ -599,7 +599,7 @@
             </a>
             <ul class="dropdown-menu">
                 <li>
-                
+                <a class="sidebar_archives-link" href="/categories/algorithm/">algorithm<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/language/">language<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/language/markdown/">markdown<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
         
@@ -681,7 +681,7 @@
         <li>
             <a href="/archives">
                 文章总数
-                <span class="sidebar-badge">1</span>
+                <span class="sidebar-badge">3</span>
             </a>
         </li>
         
@@ -983,7 +983,7 @@ It will not impact the appearance and can give developers a lot of support :)
                     right: 30px;
                 }
 
-                @media (min-width: 240px){
+                @media (max-width: 240px){
                     #live2dcanvas{
                         right: 24px;
                         width: 24px;
@@ -993,11 +993,11 @@ It will not impact the appearance and can give developers a lot of support :)
 
                 @media (max-width: 768px){
                     #live2dcanvas{
-                        width: 150px;
-                        height: 200px;   
+                        width: 145px;
+                        height: 180px;   
                     }
                 }
-                
+
                 @media (max-width: 400px){
                     #live2dcanvas{
                         width: 100px;
@@ -1005,6 +1005,20 @@ It will not impact the appearance and can give developers a lot of support :)
                     }
                 }
             </style>
+            <script type="text/javascript">
+                var adjustFooter = function() {
+                    if( $('#main').outerHeight() < $(window).height() ) {
+                        var footerBottom = $(window).height() - $('#main').outerHeight();
+                        $('#bottom').css('bottom', '-' + footerBottom + 'px');
+                    } 
+                }; 
+                $(document).ready(function() {
+                    adjustFooter();
+                });
+                $(window).resize(function(){
+                    adjustFooter();
+                })
+            </script>
         </body>
     
 </html>

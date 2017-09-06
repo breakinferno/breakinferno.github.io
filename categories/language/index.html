@@ -39,7 +39,7 @@
     
     <title>
         
-            tags | 
+            分类: language | 
         
         吕飞的博纳阁
     </title>
@@ -228,7 +228,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://breakinferno.info">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="tags | 吕飞的博纳阁">
+    <meta property="og:title" content="分类: language | 吕飞的博纳阁">
     <meta property="og:image" content="http://breakinferno.info/img/favicon.png" />
     <meta property="og:description" content="">
     
@@ -236,7 +236,7 @@
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="tags | 吕飞的博纳阁">
+    <meta name="twitter:title" content="分类: language | 吕飞的博纳阁">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://breakinferno.info/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -244,7 +244,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://breakinferno.info/tags/index.html" />
+        <link rel="canonical" href="http://breakinferno.info/categories/language/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -293,65 +293,101 @@
                         </button>
                     
 
-                    <!-- Post TOC -->
+                    <!-- Index Module -->
+<div class="material-index mdl-grid">
+    
+    <div class="locate-thumbnail-symbol"></div>
 
+    <!-- Pin on top -->
+    
+        
+    
 
-<!-- Layouts -->
+    <!-- Normal Post -->
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
 
-    <!-- Tags Cloud -->
-    <style>
-    #bottom{
-        position: relative;
-    }
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2017/09/06/markdown/">初探 markdown</a></p>
+    </div>
 
-    @media screen and (max-width: 480px) {
-        .material-tagscloud{
-            margin: 6em 2em 0;
-        }
-    }
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            0. 前言万事万物都有因有果，这篇博客的由来是由于断断续续搞了三天才把博客搭起来了。虽然SEO还有问题，这没办法了。所以这里为自己的博客开个头，来一个简单无脑的博文犒劳犒劳自己–复习复习markdown的基本语法！
 
-    .material-tagscloud a{
-        text-decoration:none;
-        padding: 1px 9px;
-        margin: 9px 1px;
-        line-height: 40px;
-        white-space: nowrap;
-        transition: .6s;
-        opacity: .85;
-    }
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2017/09/06/markdown/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="吕飞's avatar">
+            </div>
+            <div>
+                <strong>吕飞</strong>
+                <span>9月 06, 2017</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+          
+              <!-- Category -->
+              <span class="post_entry-category">
+                  <a class="post_category-link" href="/categories/language/">language</a>, <a class="post_category-link" href="/categories/language/markdown/">markdown</a>
+              </span>
+            
 
-    .material-tagscloud a:hover{
-        transition: .6s;
-        opacity: 1;
-        background: #fdf5d7;
-        box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
-    }
-</style>
+            
 
-<div class=" material-tagscloud">
-    <div class="material-post mdl-grid">
-        <a href="/tags/algorithm/" style="font-size: 20px; color: #f00">algorithm</a> <a href="/tags/javascript/" style="font-size: 20px; color: #f00">javascript</a> <a href="/tags/mark-language/" style="font-size: 20px; color: #f00">mark language</a> <a href="/tags/markdown/" style="font-size: 20px; color: #f00">markdown</a>
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
     </div>
 </div>
 
+            
+            
+        
+    
 
-<!-- <script type="text/ls-javascript" id="page-tagcloud-script">
-    var adjustFooter = function() {
-    if( $('#main').outerHeight() < $(window).height() ) {
-        var footerBottom = $(window).height() - $('#main').outerHeight();
-        $('#bottom').css('bottom', '-' + footerBottom + 'px');
+    
+
+    
+        <script type="text/ls-javascript" id="thumbnail-script">
+    var randomNum;
+
+    var locatePost = $('.locate-thumbnail-symbol').next();
+    for(var i = 0; i < 10; i++) {
+        randomNum = Math.floor(Math.random() * 41 + 1);
+
+        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
+        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+
+        locatePost = locatePost.next();
     }
-}; 
-    $(document).ready(function() {
-        adjustFooter();
-    });
-    $(window).resize(function(){
-        adjustFooter();
-    })
-</script> -->
+</script>
 
-
-
+    
+</div>
 
 
                     
@@ -618,6 +654,14 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 

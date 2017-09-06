@@ -455,7 +455,7 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <h1 id="关于我-–现在还不知道建设啥！"><a href="#关于我-–现在还不知道建设啥！" class="headerlink" title="关于我 –现在还不知道建设啥！"></a>关于我 –现在还不知道建设啥！</h1><h3 id="手机号"><a href="#手机号" class="headerlink" title="手机号"></a>手机号</h3><h3 id="QQ"><a href="#QQ" class="headerlink" title="QQ"></a>QQ</h3><h3 id="github"><a href="#github" class="headerlink" title="github"></a>github</h3><h3 id="wechat"><a href="#wechat" class="headerlink" title="wechat"></a>wechat</h3><h2 id="谢谢你的足迹到过这里"><a href="#谢谢你的足迹到过这里" class="headerlink" title="谢谢你的足迹到过这里"></a>谢谢你的足迹到过这里</h2>
+        <h1 id="关于我-–现在还不知道建设啥！"><a href="#关于我-–现在还不知道建设啥！" class="headerlink" title="关于我 –现在还不知道建设啥！"></a>关于我 –现在还不知道建设啥！</h1><h3 id="手机号"><a href="#手机号" class="headerlink" title="手机号"></a>手机号</h3><h3 id="QQ"><a href="#QQ" class="headerlink" title="QQ"></a>QQ</h3><h3 id="github"><a href="#github" class="headerlink" title="github"></a>github</h3><h3 id="wechat"><a href="#wechat" class="headerlink" title="wechat"></a>wechat</h3><h2 id="谢谢你的足迹到过这里"><a href="#谢谢你的足迹到过这里" class="headerlink" title="谢谢你的足迹到过这里"></a>谢谢你的足迹到过这里</h2><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
         
     
 
@@ -609,7 +609,7 @@
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">1</span></a>
+                <a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">3</span></a>
             </ul>
         </li>
         
@@ -627,7 +627,7 @@
             </a>
             <ul class="dropdown-menu">
                 <li>
-                
+                <a class="sidebar_archives-link" href="/categories/algorithm/">algorithm<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/language/">language<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/language/markdown/">markdown<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
         
@@ -709,7 +709,7 @@
         <li>
             <a href="/archives">
                 文章总数
-                <span class="sidebar-badge">1</span>
+                <span class="sidebar-badge">3</span>
             </a>
         </li>
         
@@ -1011,7 +1011,7 @@ It will not impact the appearance and can give developers a lot of support :)
                     right: 30px;
                 }
 
-                @media (min-width: 240px){
+                @media (max-width: 240px){
                     #live2dcanvas{
                         right: 24px;
                         width: 24px;
@@ -1021,11 +1021,11 @@ It will not impact the appearance and can give developers a lot of support :)
 
                 @media (max-width: 768px){
                     #live2dcanvas{
-                        width: 150px;
-                        height: 200px;   
+                        width: 145px;
+                        height: 180px;   
                     }
                 }
-                
+
                 @media (max-width: 400px){
                     #live2dcanvas{
                         width: 100px;
@@ -1033,6 +1033,20 @@ It will not impact the appearance and can give developers a lot of support :)
                     }
                 }
             </style>
+            <script type="text/javascript">
+                var adjustFooter = function() {
+                    if( $('#main').outerHeight() < $(window).height() ) {
+                        var footerBottom = $(window).height() - $('#main').outerHeight();
+                        $('#bottom').css('bottom', '-' + footerBottom + 'px');
+                    } 
+                }; 
+                $(document).ready(function() {
+                    adjustFooter();
+                });
+                $(window).resize(function(){
+                    adjustFooter();
+                })
+            </script>
         </body>
     
 </html>

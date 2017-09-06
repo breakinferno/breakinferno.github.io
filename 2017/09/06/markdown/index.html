@@ -39,7 +39,7 @@
     
     <title>
         
-            标签: github | 
+            初探 markdown | 
         
         吕飞的博纳阁
     </title>
@@ -51,7 +51,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="吕飞">
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content="breakinferno">
+    <meta name="keywords" content="breakinferno,markdown,mark language">
 
     <!-- Import lsloader -->
     <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(key){try{localStorage.removeItem(key)}catch(e){}};lsloader.setLS=function(key,val){try{localStorage.setItem(key,val)}catch(e){}};lsloader.getLS=function(key){var val="";try{val=localStorage.getItem(key)}catch(e){val=""}return val};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var keys=[];for(var i=0;i<localStorage.length;i++){keys.push(localStorage.key(i))}keys.forEach(function(key){var data=lsloader.getLS(key);if(window.oldVersion){var remove=window.oldVersion.reduce(function(p,c){return p||data.indexOf("/*"+c+"*/")!==-1},false);if(remove){lsloader.removeLS(key)}}})}catch(e){}};lsloader.clean();lsloader.load=function(jsname,jspath,cssonload,isJs){if(typeof cssonload==="boolean"){isJs=cssonload;cssonload=undefined}isJs=isJs||false;cssonload=cssonload||function(){};var code;code=this.getLS(jsname);if(code&&code.indexOf(versionString)===-1){this.removeLS(jsname);this.requestResource(jsname,jspath,cssonload,isJs);return}if(code){var versionNumber=code.split(versionString)[0];if(versionNumber!=jspath){console.log("reload:"+jspath);this.removeLS(jsname);this.requestResource(jsname,jspath,cssonload,isJs);return}code=code.split(versionString)[1];if(isJs){this.jsRunSequence.push({name:jsname,code:code});this.runjs(jspath,jsname,code)}else{document.getElementById(jsname).appendChild(document.createTextNode(code));cssonload()}}else{this.requestResource(jsname,jspath,cssonload,isJs)}};lsloader.requestResource=function(name,path,cssonload,isJs){var that=this;if(isJs){this.iojs(path,name,function(path,name,code){that.setLS(name,path+versionString+code);that.runjs(path,name,code)})}else{this.iocss(path,name,function(code){document.getElementById(name).appendChild(document.createTextNode(code));that.setLS(name,path+versionString+code)},cssonload)}};lsloader.iojs=function(path,jsname,callback){var that=this;that.jsRunSequence.push({name:jsname,code:""});try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(path,jsname,xhr.response);return}}that.jsfallback(path,jsname)}};xhr.send(null)}catch(e){that.jsfallback(path,jsname)}};lsloader.iocss=function(path,jsname,callback,cssonload){var that=this;try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(xhr.response);cssonload();return}}that.cssfallback(path,jsname,cssonload)}};xhr.send(null)}catch(e){that.cssfallback(path,jsname,cssonload)}};lsloader.iofonts=function(path,jsname,callback,cssonload){var that=this;try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(xhr.response);cssonload();return}}that.cssfallback(path,jsname,cssonload)}};xhr.send(null)}catch(e){that.cssfallback(path,jsname,cssonload)}};lsloader.runjs=function(path,name,code){if(!!name&&!!code){for(var k in this.jsRunSequence){if(this.jsRunSequence[k].name==name){this.jsRunSequence[k].code=code}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var script=document.createElement("script");script.appendChild(document.createTextNode(this.jsRunSequence[0].code));script.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(script);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var that=this;var script=document.createElement("script");script.src=this.jsRunSequence[0].path;script.type="text/javascript";this.jsRunSequence[0].status="loading";script.onload=function(){that.jsRunSequence.shift();if(that.jsRunSequence.length>0){that.runjs()}};document.body.appendChild(script)}};lsloader.tagLoad=function(path,name){this.jsRunSequence.push({name:name,code:"",path:path,status:"failed"});this.runjs()};lsloader.jsfallback=function(path,name){if(!!this.jsnamemap[name]){return}else{this.jsnamemap[name]=name}for(var k in this.jsRunSequence){if(this.jsRunSequence[k].name==name){this.jsRunSequence[k].code="";this.jsRunSequence[k].status="failed";this.jsRunSequence[k].path=path}}this.runjs()};lsloader.cssfallback=function(path,name,cssonload){if(!!this.cssnamemap[name]){return}else{this.cssnamemap[name]=1}var link=document.createElement("link");link.type="text/css";link.href=path;link.rel="stylesheet";link.onload=link.onerror=cssonload;var root=document.getElementsByTagName("script")[0];root.parentNode.insertBefore(link,root)};lsloader.runInlineScript=function(scriptId,codeId){var code=document.getElementById(codeId).innerText;this.jsRunSequence.push({name:scriptId,code:code});this.runjs()};lsloader.loadCombo=function(jslist){var updateList="";var requestingModules={};for(var k in jslist){var LS=this.getLS(jslist[k].name);if(!!LS){var version=LS.split(versionString)[0];var code=LS.split(versionString)[1]}else{var version=""}if(version==jslist[k].path){this.jsRunSequence.push({name:jslist[k].name,code:code,path:jslist[k].path})}else{this.jsRunSequence.push({name:jslist[k].name,code:null,path:jslist[k].path,status:"comboloading"});requestingModules[jslist[k].name]=true;updateList+=(updateList==""?"":";")+jslist[k].path}}var that=this;if(!!updateList){var xhr=new XMLHttpRequest;xhr.open("get",combo+updateList,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){that.runCombo(xhr.response,requestingModules);return}}else{for(var i in that.jsRunSequence){if(requestingModules[that.jsRunSequence[i].name]){that.jsRunSequence[i].status="failed"}}that.runjs()}}};xhr.send(null)}this.runjs()};lsloader.runCombo=function(comboCode,requestingModules){comboCode=comboCode.split("/*combojs*/");comboCode.shift();for(var k in this.jsRunSequence){if(!!requestingModules[this.jsRunSequence[k].name]&&!!comboCode[0]){this.jsRunSequence[k].status="comboJS";this.jsRunSequence[k].code=comboCode[0];this.setLS(this.jsRunSequence[k].name,this.jsRunSequence[k].path+versionString+comboCode[0]);comboCode.shift()}}this.runjs()}})();</script>
@@ -228,15 +228,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://breakinferno.info">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="标签: github | 吕飞的博纳阁">
+    <meta property="og:title" content="初探 markdown | 吕飞的博纳阁">
     <meta property="og:image" content="http://breakinferno.info/img/favicon.png" />
     <meta property="og:description" content="">
-    
+    <meta property="og:article:tag" content="markdown"> <meta property="og:article:tag" content="mark language"> 
 
+    
+        <meta property="article:published_time" content="Wed Sep 06 2017 17:54:52 GMT+0800" />
+        <meta property="article:modified_time" content="Wed Sep 06 2017 22:29:43 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="标签: github | 吕飞的博纳阁">
+    <meta name="twitter:title" content="初探 markdown | 吕飞的博纳阁">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://breakinferno.info/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -244,13 +247,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://breakinferno.info/tags/github/index.html" />
+        <link rel="canonical" href="http://breakinferno.info/2017/09/06/markdown/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "http://breakinferno.info/2017/09/06/markdown/index.html",
+    "headline": "初探 markdown",
+    "datePublished": "Wed Sep 06 2017 17:54:52 GMT+0800",
+    "dateModified": "Wed Sep 06 2017 22:29:43 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "吕飞",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.png"
+        },
+        "description": "燃起希望之火,&emsp;&emsp;--鸿鹄焉知咸鱼之志"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "吕飞的博纳阁",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",markdown,mark languagebreakinferno",
+    "description": "",
+}
+</script>
 
 
     
@@ -293,95 +326,390 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
     
-        
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#0-前言"><span class="post-toc-number">1.</span> <span class="post-toc-text">0. 前言</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#index"><span class="post-toc-number">2.</span> <span class="post-toc-text">1. 目录</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#index1"><span class="post-toc-number">3.</span> <span class="post-toc-text">2. markdown 介绍</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#优点"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">优点</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#index2"><span class="post-toc-number">4.</span> <span class="post-toc-text">3. 工具选取</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#在线编辑网站"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">在线编辑网站</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#本地编辑器软件"><span class="post-toc-number">4.2.</span> <span class="post-toc-text">本地编辑器软件</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#index3"><span class="post-toc-number">5.</span> <span class="post-toc-text">4. 语法链接</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#index3_font"><span class="post-toc-number">5.1.</span> <span class="post-toc-text">4.1 斜体、粗体和删除线</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#index3_title"><span class="post-toc-number">5.2.</span> <span class="post-toc-text">4.2 标题</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#第一种"><span class="post-toc-number">5.2.0.1.</span> <span class="post-toc-text">第一种</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#1-这是一个一级标题"><span class="post-toc-number"></span> <span class="post-toc-text">1. 这是一个一级标题</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#2-这是一个二级标题"><span class="post-toc-number"></span> <span class="post-toc-text">2. 这是一个二级标题</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#第二种"><span class="post-toc-number">0.0.0.1.</span> <span class="post-toc-text">第二种</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#一级标题"><span class="post-toc-number"></span> <span class="post-toc-text">一级标题</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#二级标题"><span class="post-toc-number"></span> <span class="post-toc-text">二级标题</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#三级标题"><span class="post-toc-number">1.</span> <span class="post-toc-text">三级标题</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#四级标题"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">四级标题</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#五级标题"><span class="post-toc-number">1.1.1.</span> <span class="post-toc-text">五级标题</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#六级标题"><span class="post-toc-number">1.1.1.1.</span> <span class="post-toc-text">六级标题</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#index3_link"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">4.3 超链接</span></a></li></ol></li></ol>
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 41 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/09/04/build-blog-with-hexo/">build blog with hexo</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            吕飞mdzz
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/09/04/build-blog-with-hexo/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="吕飞's avatar">
-            </div>
-            <div>
-                <strong>吕飞</strong>
-                <span>9月 04, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 41 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                初探 markdown
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>吕飞</strong>
+        <span>9月 06, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACaUlEQVR42u3aUXLDIAwFwNz/0u0JTJ8kQ+3M+quTOoQlMxZ54vPz1dcHDw8PDw8PDw/vYbxPfF0Ot/zv+rPW4/TmhoeHh3eGl0zr6pWrEdZLk49QnhseHh7eQd7VA3d9T3J/8uhP3ru+Hw8PD+/JvKQAJBOdLCseHh7eu3jrO5shAh4eHt4LeckP/hyWf0pehLZnLXh4eHgxL3+In//7aH8PDw8PL+CVjzQtY4VejFs9glA4dIWHh4e3gVdtbk3uTILg3nzw8PDwTvLmD+jJcuRHuwrj4OHh4R3hVZv9k7CgGiJXvwA8PDy83bxes6p3PCtflNF2Hw8PD28zbx0cJFvbfCqjjfIyqsDDw8M7yZuTqu2uKjspLXh4eHgneflweUMrmUQvklh/JXh4eHgneZOHe3Vr3ttqF+ISPDw8vM28yTGpfMOdj5aPczkaHh4e3mZeNZyttsSq5SRZmj8WCw8PD28zr/dhyRLkAUQ+hxu21Hh4eHhjXjUsqJaKu0pIfhAWDw8PbzcvjwbKocAglt2eteDh4eHdxJschEqWo3dIqxwx4+Hh4f0rr9fuWscKSalIrvKWGg8PD28DLxli8uhPCkke416+Cw8PD+84rzrFHQcLevEHHh4e3hlebyPbi3QnhaRZGPDw8PA28HoP5bzNPykbt50pw8PDw9vAy7fL1ZZYfgQhD4Lx8PDwnsPrNfh77bQ8ok1KFB4eHt57ecnBgqQwVF/Hw8PDez4vn8q9B7kOFQY8PDy8W8OIXlsrKR75om/MWvDw8PA2NMDySc8baUmogYeHh3ee930XHh4eHh4eHh7eA65fssMWEY7VAjQAAAAASUVORK5CYII=">
+    
+</ul>
+
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/mark-language/">mark language</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/markdown/">markdown</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+        
+            <!-- Busuanzi Views -->
+            <a class="post_share-link" href="#">
+                <li class="mdl-menu__item">
+                    <span id="busuanzi_container_page_pv">
+                        <span id="busuanzi_value_page_pv"></span>&nbsp;浏览量
+                    </span>
+                </li>
+            </a>
+        
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=初探 markdown&url=http://breakinferno.info/2017/09/06/markdown/index.html&pic=http://breakinferno.info/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=初探 markdown&url=http://breakinferno.info/2017/09/06/markdown/index.html&via=吕飞" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://breakinferno.info/2017/09/06/markdown/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://breakinferno.info/2017/09/06/markdown/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=吕飞的博纳阁&title=初探 markdown&summary=&pics=http://breakinferno.info/img/favicon.png&url=http://breakinferno.info/2017/09/06/markdown/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://breakinferno.info/2017/09/06/markdown/index.html&text=初探 markdown" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h3 id="0-前言"><a href="#0-前言" class="headerlink" title="0. 前言"></a>0. 前言</h3><p>万事万物都有因有果，这篇博客的由来是由于断断续续搞了三天才把博客搭起来了。虽然SEO还有问题，这没办法了。所以这里为自己的博客开个头，来一个简单无脑的博文犒劳犒劳自己–复习复习markdown的基本语法！</p>
+<h3 id="index">1. 目录</h3>
+
+<ul>
+<li><a href="#index">1. 目录</a></li>
+<li><a href="#index1">2. markdown 介绍</a> </li>
+<li><a href="#index2">3. 工具选取</a></li>
+<li><a href="#index3">4. 语法连接</a><ul>
+<li><a href="#index3_font">4.1 斜体、粗体和删除线</a></li>
+<li><a href="#index3_title">4.2 标题</a></li>
+<li><a href="#index3_link">4.3 超链接</a><ul>
+<li><a href="#index3_link_inline">4.3.1 行内式</a></li>
+<li><a href="#index3_link_reference">4.3.2 参考式</a></li>
+<li><a href="#index3_link_autolink">4.3.3 自动链接</a> </li>
+</ul>
+</li>
+<li><a href="#index3_pot">4.4 锚点</a></li>
+<li><a href="#index3_list">4.5 列表</a><ul>
+<li><a href="#index3_list_ul">4.5.1 无序列表</a></li>
+<li><a href="#index3_list_ol">4.5.2 有序列表</a></li>
+</ul>
+</li>
+<li><a href="#index3_depend">4.6 引用</a></li>
+<li><a href="#index3_img">4.7 图像</a></li>
+<li><a href="#index3_index">4.8 内容目录</a></li>
+</ul>
+<ul>
+<li><a href="#index3_equaltor">4.9 公式</a></li>
+<li><a href="#index3_taskflow">4.10 流程图</a></li>
+</ul>
+<ul>
+<li><a href="#index3_table">4.11 表格</a></li>
+<li><a href="#index3_septemeter">4.12 分隔线</a></li>
+<li><a href="#index3_code">4.13 代码</a></li>
+</ul>
+</li>
+<li><a href="#index4">5. 其他连接</a></li>
+<li><a href="#index5">6. 遇见的问题</a></li>
+</ul>
+<h3 id="index1">2. markdown 介绍</h3>
+
+<p>Markdown是一种轻量级的<strong>「标记语言」</strong>,赋予了普通文本文件格式化的功能，同时又保持了文本文件的简洁。</p>
+<h4 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h4><blockquote>
+<ul>
+<li>Markdown简单易用、可读、直观、学习成本低。</li>
+<li>纯文本，兼容性极强，可以用所有编辑器打开</li>
+<li>让你专注文字而不是排版</li>
+<li>格式转变方便，可以转为pdf,html,电子书等</li>
+<li>标记语法具有很好的可读性</li>
+</ul>
+</blockquote>
+<h3 id="index2">3. 工具选取</h3>
+
+<p>markdown有很多编辑器或者在线编辑器。这里推荐几个。</p>
+<h4 id="在线编辑网站"><a href="#在线编辑网站" class="headerlink" title="在线编辑网站"></a>在线编辑网站</h4><ol>
+<li><a href="https://www.zybuluo.com/mdeditor" target="_blank" rel="external">Cmd Markdown编辑器</a>:作业部落出品，也是一款不错的工具和博客平台兼顾的产品。全平台且提供web版</li>
+<li><a href="http://mahua.jser.me/" target="_blank" rel="external">MaHua 在线Markdown编辑器</a>:小众软件推荐，界面有些简陋</li>
+<li><a href="http://dillinger.io/" target="_blank" rel="external">dillinger Markdown编辑器</a>:漂亮强大，支持md, html, pdf 文件导出。支持dropbox, onedrive，google drive, github. 来自国外，可能不够稳定.</li>
+<li><a href="http://www.jianshu.com/" target="_blank" rel="external">简书</a>:一个很不错的博客平台，每几秒钟便会自动存入一个备份。可以直接从本地拖入照片生成链接，一直在不断优化。作为一个博客平台，需要注册账号后方能进行写作</li>
+<li><a href="https://maxiang.io/" target="_blank" rel="external">马克飞象</a>:跟印象笔记有关，没用过。</li>
+<li><a href="http://markdown.xiaoshujiang.com/" target="_blank" rel="external">小书匠编辑器</a>:全平台覆盖并且有web版</li>
+</ol>
+<h4 id="本地编辑器软件"><a href="#本地编辑器软件" class="headerlink" title="本地编辑器软件"></a>本地编辑器软件</h4><ol>
+<li><a href="http://www.sublimetext.com/3" target="_blank" rel="external">sublime text</a>:轻量强大的编辑器，下载插件即可使用(ps:ctrl+shift+p install package;下载markdown Editing 和 markdownlivepreview插件即可)</li>
+<li><a href="https://atom.io/" target="_blank" rel="external">atom</a>:也是一款强大的编辑器，github打造，然而不知为何我打开就卡死。。。。。。Orz</li>
+<li>其他的自己搜吧</li>
+</ol>
+<p></p><h3 id="index3">4. 语法链接</h3>‘<p></p>
+<h4 id="index3_font">4.1 斜体、粗体和删除线</h4>
+
+<p>其实很简单*和_标志斜体或者粗体。斜体一个，粗体两个，又斜又粗那就三个，删除线使用两个~~。具体看如下代码吧：</p>
+<p><strong>代码:</strong></p>
+<div class="spoiler collapsed"><div class="spoiler-title">code</div><div class="spoiler-content"><ol>
+<li><em>斜体</em>或者<em>斜体</em></li>
+<li><strong>粗体</strong>或者<strong>粗体</strong></li>
+<li><strong><em>加粗斜体</em></strong>或者<strong><em>加粗斜体</em></strong></li>
+<li><del>删除线</del></li>
+</ol>
+</div></div>
+<p><strong>显示效果：</strong></p>
+<div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"><blockquote>
+<ol>
+<li><em>斜体</em>或者<em>斜体</em></li>
+<li><strong>粗体</strong>或者<strong>粗体</strong></li>
+<li><strong><em>加粗斜体</em></strong>或者<strong><em>加粗斜体</em></strong></li>
+<li><del>删除线</del></li>
+</ol>
+</blockquote>
+</div></div>
+<h4 id="index3_title">4.2 标题</h4>
+
+<p>这里有两种方法，我只推荐使用第二种，如下：</p>
+<h6 id="第一种"><a href="#第一种" class="headerlink" title="第一种"></a>第一种</h6><p><strong>代码:</strong></p>
+<div class="spoiler collapsed"><div class="spoiler-title">code</div><div class="spoiler-content"><p>1.这是一个一级标题<br>2.===============<br>3.<br>4.这是一个二级标题<br>5.—————</p>
+</div></div>
+<p><strong>效果:</strong></p>
+<div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"><blockquote>
+<h1 id="1-这是一个一级标题"><a href="#1-这是一个一级标题" class="headerlink" title="1. 这是一个一级标题"></a>1. 这是一个一级标题</h1><h2 id="2-这是一个二级标题"><a href="#2-这是一个二级标题" class="headerlink" title="2. 这是一个二级标题"></a>2. 这是一个二级标题</h2></blockquote>
+</div></div>
+<h6 id="第二种"><a href="#第二种" class="headerlink" title="第二种"></a>第二种</h6><p><strong>代码：</strong></p>
+<div class="spoiler collapsed"><div class="spoiler-title">code</div><div class="spoiler-content"><p>1.# 一级标题<br>2.## 二级标题<br>3.### 三级标题<br>4.#### 四级标题<br>5.##### 五级标题<br>6.###### 六级标题</p>
+</div></div>
+<p><strong>效果:</strong></p>
+<div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"><blockquote>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></blockquote>
+</div></div>
+<h4 id="index3_link">4.3 超链接</h4>
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+        
+    
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 gitcoment -->
+<div id="gitment-comment">
+    <!-- Gitment 评论框 -->
+<div id="container"></div>
+</div>
+<style>
+    #gitment-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    var gitment = new Gitment({
+        //id: '页面 ID', // 可选。默认为 location.href
+        owner: 'breakinferno',
+        repo: 'breakinferno.github.io',
+        oauth: {
+            client_id: '0b8298d1c22589e4dbfd',
+            client_secret: 'a7275c5822f739ec364759f3c155804bc7735e78',
+        },
+    })
+    gitment.render('container')
+</script>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2017/09/06/hexo-blog/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -479,7 +807,7 @@
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">1</span></a>
+                <a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">3</span></a>
             </ul>
         </li>
         
@@ -497,7 +825,7 @@
             </a>
             <ul class="dropdown-menu">
                 <li>
-                
+                <a class="sidebar_archives-link" href="/categories/algorithm/">algorithm<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/language/">language<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/language/markdown/">markdown<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
         
@@ -579,7 +907,7 @@
         <li>
             <a href="/archives">
                 文章总数
-                <span class="sidebar-badge">1</span>
+                <span class="sidebar-badge">3</span>
             </a>
         </li>
         
@@ -648,6 +976,14 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 
@@ -881,7 +1217,7 @@ It will not impact the appearance and can give developers a lot of support :)
                     right: 30px;
                 }
 
-                @media (min-width: 240px){
+                @media (max-width: 240px){
                     #live2dcanvas{
                         right: 24px;
                         width: 24px;
@@ -891,11 +1227,11 @@ It will not impact the appearance and can give developers a lot of support :)
 
                 @media (max-width: 768px){
                     #live2dcanvas{
-                        width: 150px;
-                        height: 200px;   
+                        width: 145px;
+                        height: 180px;   
                     }
                 }
-                
+
                 @media (max-width: 400px){
                     #live2dcanvas{
                         width: 100px;
@@ -903,6 +1239,20 @@ It will not impact the appearance and can give developers a lot of support :)
                     }
                 }
             </style>
+            <script type="text/javascript">
+                var adjustFooter = function() {
+                    if( $('#main').outerHeight() < $(window).height() ) {
+                        var footerBottom = $(window).height() - $('#main').outerHeight();
+                        $('#bottom').css('bottom', '-' + footerBottom + 'px');
+                    } 
+                }; 
+                $(document).ready(function() {
+                    adjustFooter();
+                });
+                $(window).resize(function(){
+                    adjustFooter();
+                })
+            </script>
         </body>
     
 </html>
