@@ -316,6 +316,7 @@ progress::-moz-progress-value {
 
 ul li {
     position: relative;
+    display: inline-block;
 }
 
 .experience-list .item-remove {
