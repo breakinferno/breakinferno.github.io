@@ -18,9 +18,9 @@
         
         <tags>
             
-            <tag> react </tag>
-            
             <tag> javascript </tag>
+            
+            <tag> react </tag>
             
             <tag> Font-End </tag>
             
@@ -53,9 +53,9 @@
         
         <tags>
             
-            <tag> javascript </tag>
-            
             <tag> algorithm </tag>
+            
+            <tag> javascript </tag>
             
         </tags>
         
@@ -112,7 +112,8 @@
 <li><a href="#index3_table">4.11 表格</a></li>
 <li><a href="#index3_septemeter">4.12 分隔线</a></li>
 <li><a href="#index3_code">4.13 代码</a></li>
-<li><a href="#index3_point">4.14 注脚</a></li>
+<li><a href="#index3_todolist">4.14 Todo List</a></li>
+<li><a href="#index3_point">4.15 注脚</a></li>
 </ul>
 </li>
 <li><a href="#index4">5. 其他</a><ul>
@@ -183,7 +184,7 @@
 <pre><code>1.&lt;http://example.com/&gt;
 2.&lt;address@example.com&gt;
 </code></pre></div></div><br><br><strong>显示效果</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"><blockquote>
-<p><a href="http://example.com/" target="_blank" rel="external">http://example.com/</a><br><a href="&#109;&#x61;&#x69;&#108;&#x74;&#111;&#58;&#97;&#x64;&#x64;&#114;&#x65;&#115;&#x73;&#64;&#x65;&#120;&#x61;&#109;&#x70;&#108;&#x65;&#x2e;&#99;&#x6f;&#109;">&#97;&#x64;&#x64;&#114;&#x65;&#115;&#x73;&#64;&#x65;&#120;&#x61;&#109;&#x70;&#108;&#x65;&#x2e;&#99;&#x6f;&#109;</a></p>
+<p><a href="http://example.com/" target="_blank" rel="external">http://example.com/</a><br><a href="&#109;&#97;&#x69;&#108;&#116;&#x6f;&#x3a;&#x61;&#x64;&#x64;&#114;&#x65;&#x73;&#115;&#x40;&#101;&#120;&#x61;&#109;&#x70;&#108;&#101;&#x2e;&#x63;&#x6f;&#109;">&#x61;&#x64;&#x64;&#114;&#x65;&#x73;&#115;&#x40;&#101;&#120;&#x61;&#109;&#x70;&#108;&#101;&#x2e;&#x63;&#x6f;&#109;</a></p>
 </blockquote>
 </div></div><br><br><h4 id="index3_pot">4.4 锚点</h4><br><br>&emsp;&emsp;锚点是网页内的超链接，用于定位文档内部元素，实现页面内部的跳转功能。markdown锚点感觉有点毒性。<br><br><strong>语法描述</strong><br><br>&emsp;&emsp; 在你要跳转的<strong>标题</strong>后插入<strong>锚点{<span>#</span>标记}</strong>,<strong>(ps:马丹{前有一个空格)</strong>,然后在文档跳转部分使用超链接形式<strong><code>[链接](#标记)</code></strong><br><br><strong>代码</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">code</div><div class="spoiler-content"><p>1.这里跳转到<a href="#test">锚点</a><br>2.<br>3.## 这里是锚点位置 {<span>#</span>test}或者<code>&lt;h2 id=&quot;test&quot;&gt;这里是锚点位置&lt;/h2&gt;</code></p>
 </div></div><br><br><strong>效果</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"><blockquote>
@@ -247,7 +248,17 @@
 </div></div><br><br><strong>效果</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"><p>$$\sum_{i=1}^n a_i=0$$ </p>
 <p>$$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$</p>
 <p>$$\sum^{j-1}<em>{k=0}{\widehat{\gamma}</em>{kj} z_k}$$</p>
-</div></div><br><br>访问 <a href="https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" target="_blank" rel="external">MathJax</a> 参考更多使用方法<br><br><h4 id="index3_taskflow">4.10 流程图</h4><br><br><strong>代码</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">code</div><div class="spoiler-content"></div></div><br><br><strong>效果</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"></div></div><br><br><h4 id="index3_septemeter">4.11 分隔线</h4><br><br><strong>代码</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">code</div><div class="spoiler-content"></div></div><br><br><strong>效果</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"></div></div><br><br><h4 id="index3_septemeter">4.12 分割线</h4><br><br><h4 id="index3_code">4.13 代码</h4><br><br><strong>代码</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">code</div><div class="spoiler-content"></div></div><br><br><strong>效果</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"></div></div><br><br><h4 id="index3_point">4.13 注脚</h4><br><br><h3 id="index4">5. 其他连接</h3>
+</div></div><br><br>访问 <a href="https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" target="_blank" rel="external">MathJax</a> 参考更多使用方法<br><br><h4 id="index3_taskflow">4.10 流程图</h4><br><br><strong>代码</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">code</div><div class="spoiler-content"></div></div><br><br><strong>效果</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"></div></div><br><br><h4 id="index3_septemeter">4.11 分隔线</h4><br><br><strong>代码</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">code</div><div class="spoiler-content"></div></div><br><br><strong>效果</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"></div></div><br><br><h4 id="index3_septemeter">4.12 分割线</h4><br><br><h4 id="index3_code">4.13 代码</h4><br><br><strong>代码</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">code</div><div class="spoiler-content"></div></div><br><br><strong>效果</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"></div></div><br><br><h4 id="index3_todolist">4.14 Todo List</h4><br><br>使用带有 [ ] 或 [x] （未完成或已完成）项的列表语法撰写一个待办事宜列表(简书不支持此语法)例如：<br><br><strong>代码</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">code</div><div class="spoiler-content"><p>1.- [ ] run<br>2.- [ ] a task list item<br>3.- [ ] list syntax required<br>4.- [ ] normal <strong>formatting</strong>, @mentions, #1234 refs<br>5.- [ ] incomplete<br>6.- [x] completed</p>
+</div></div><br><br><strong>效果</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"><blockquote>
+<ul>
+<li style="list-style: none"><input type="checkbox"> a task list item</li>
+<li style="list-style: none"><input type="checkbox"> list syntax required</li>
+<li style="list-style: none"><input type="checkbox"> normal <strong>formatting</strong>, @mentions, #1234 refs</li>
+<li style="list-style: none"><input type="checkbox"> incomplete</li>
+<li style="list-style: none"><input type="checkbox" checked> completed</li>
+</ul>
+</blockquote>
+</div></div><br><br><h4 id="index3_point">4.15 注脚</h4><br><br>使用 [^keyword] 表示注脚<br><br><br><h3 id="index4">5. 其他连接</h3>
 
 <h4 id="index4_char">5.1 常见转义字符</h4>
 
@@ -298,12 +309,6 @@
     </entry>
     
     <entry>
-      <title></title>
-      <url>/resume/index.html</url>
-      <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[tags]]></title>
       <url>/tags/index.html</url>
       <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
@@ -312,6 +317,12 @@
     <entry>
       <title><![CDATA[timeline]]></title>
       <url>/timeline/index.html</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>/resume/index.html</url>
       <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
     </entry>
     
