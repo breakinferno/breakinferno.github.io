@@ -4,8 +4,87 @@
 
     
   <url>
+    <loc>http://breakinferno.info/2017/09/25/JS-Constant-dropping-wears-the-stone-1/</loc>
+    <lastmod>2017-10-05T15:22:08.769Z</lastmod>
+    <data>
+        <display>
+        <title>JS-Constant dropping wears the stone-1</title>
+        <pubTime>2017-09-25T14:49:40.000Z</pubTime>
+        
+        <tag>Javascript</tag>
+         
+        <tag>Primise</tag>
+         
+        <tag>ES6</tag>
+         
+         
+           
+             
+              <breadCrumb title="Language" url="http://breakinferno.info/categories/Language/"/>
+          
+             
+              <breadCrumb title="Font-End" url="http://breakinferno.info/categories/Language/Font-End/"/>
+          
+             
+              <breadCrumb title="Javascript" url="http://breakinferno.info/categories/Language/Font-End/Javascript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://breakinferno.info/2017/09/06/algorithm-1/</loc>
+    <lastmod>2017-09-25T14:52:15.269Z</lastmod>
+    <data>
+        <display>
+        <title>算法100题之第一题--对称字符串最大长度</title>
+        <pubTime>2017-09-06T14:18:37.000Z</pubTime>
+        
+        <tag>Algorithm</tag>
+         
+        <tag>Lavascript</tag>
+         
+         
+           
+             
+              <breadCrumb title="Algorithm" url="http://breakinferno.info/categories/Algorithm/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://breakinferno.info/2017/09/08/React-sourceCode-analysis-1/</loc>
+    <lastmod>2017-09-25T14:51:42.885Z</lastmod>
+    <data>
+        <display>
+        <title>React源码分析1-react结构概述</title>
+        <pubTime>2017-09-08T03:08:41.000Z</pubTime>
+        
+        <tag>React</tag>
+         
+        <tag>Javascript</tag>
+         
+        <tag>Font-End</tag>
+         
+         
+           
+             
+              <breadCrumb title="Language" url="http://breakinferno.info/categories/Language/"/>
+          
+             
+              <breadCrumb title="Font-End" url="http://breakinferno.info/categories/Language/Font-End/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://breakinferno.info/2017/09/06/markdown/</loc>
-    <lastmod>2017-09-08T14:40:42.138Z</lastmod>
+    <lastmod>2017-09-09T12:51:39.466Z</lastmod>
     <data>
         <display>
         <title>初探 markdown</title>
@@ -22,55 +101,6 @@
           
              
               <breadCrumb title="markdown" url="http://breakinferno.info/categories/language/markdown/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://breakinferno.info/2017/09/08/React-sourceCode-analysis-1/</loc>
-    <lastmod>2017-09-08T03:51:54.955Z</lastmod>
-    <data>
-        <display>
-        <title>React源码分析1-react结构概述</title>
-        <pubTime>2017-09-08T03:08:41.000Z</pubTime>
-        
-        <tag>javascript</tag>
-         
-        <tag>react</tag>
-         
-        <tag>Font-End</tag>
-         
-         
-           
-             
-              <breadCrumb title="language" url="http://breakinferno.info/categories/language/"/>
-          
-             
-              <breadCrumb title="Font-End" url="http://breakinferno.info/categories/language/Font-End/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://breakinferno.info/2017/09/06/algorithm-1/</loc>
-    <lastmod>2017-09-07T15:49:09.050Z</lastmod>
-    <data>
-        <display>
-        <title>算法100题之第一题--对称字符串最大长度</title>
-        <pubTime>2017-09-06T14:18:37.000Z</pubTime>
-        
-        <tag>algorithm</tag>
-         
-        <tag>javascript</tag>
-         
-         
-           
-             
-              <breadCrumb title="algorithm" url="http://breakinferno.info/categories/algorithm/"/>
           
         </display>
     </data>
