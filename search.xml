@@ -3,6 +3,80 @@
   
     
     <entry>
+      <title><![CDATA[Sublime Text3 Quickly]]></title>
+      <url>/2017/10/10/Sublime-Text3-Quickly/</url>
+      <content type="html"><![CDATA[<p>###Sublime Text 快捷方式总结</p>
+<p>&emsp;&emsp;在使用Sublime Text开发程序过程中，如果知道一点常见的快捷方式，能够提高我们开发代码的效率。让我们能够更加随心所欲的畅写我们的代码。So，让我们来看看那些常见的Sublime text快捷键吧.</p>
+<p>&emsp;&emsp;我们按照使用频率来进行排序吧(个人使用频率)。</p>
+<p>####选择</p>
+<p><strong>☆☆☆☆☆</strong></p>
+<ul>
+<li>Ctrl+D <strong>选中</strong>光标选中文本，继续操作会选中下一个相同文本</li>
+<li>Alt+F3 Ctrl+D的加强版，直接选取所有相同文本</li>
+<li>Ctrl+Enter 向下<strong>插入</strong>新行，不用每次将光标移到最后再Enter(Ctrl+Shift+Enter 向上插入)</li>
+<li>Ctrl+Shift+[/] 选中代码，<strong>折叠/展开</strong>代码</li>
+<li>Ctrl+Shift+↑/↓ 上/下行代码<strong>交换</strong></li>
+</ul>
+<p><strong>☆☆☆☆</strong></p>
+<ul>
+<li>Ctrl+Shift+←/→ 向左/右<strong>选择</strong>代码<br>+Ctrl+L 选中整行，继续操作选择下一行(和Shift+↓相同)<br>+Ctrl+Shift+L 选中多行后，快捷键在每行行尾插入光标</li>
+</ul>
+<p>####编辑</p>
+<p><strong>☆☆☆☆☆</strong></p>
+<ul>
+<li>Ctrl+Shift+D 复制当前行到下一行</li>
+<li>Ctrl+Shift+K 删除当前行</li>
+<li>Ctrl+K+K 删除当前行光标至行尾的所有内容</li>
+<li>Ctrl+Z/Y 撤销/恢复</li>
+</ul>
+<p><strong>☆☆☆☆</strong></p>
+<ul>
+<li>Ctrl+J 合并多行代码为一行</li>
+<li>Ctrl+K+U 转化为大写</li>
+<li>Ctrl+K+L 转化为小写</li>
+</ul>
+<p>####搜索</p>
+<p><strong>☆☆☆☆☆</strong></p>
+<ul>
+<li>Ctrl+F 查找</li>
+<li>Ctrl+H 查找替换</li>
+<li>Ctrl+Shift+F 文件内查找</li>
+<li>Ctrl+P 打开搜索框查找：1、输入当前项目中的文件名，快速搜索文件，2、输入@和关键字，查找文件中函数名，3、输入：和数字，跳转到文件中该行代码，4、输入#和关键字，查找变量名。</li>
+<li>Ctrl+R Ctrl+P的函数名搜索</li>
+<li>Ctrl+G Ctrl+P的行数搜索</li>
+<li>Ctrl+: Ctrl+P的变量搜索</li>
+</ul>
+<p>####分屏</p>
+<p><strong>☆☆☆☆</strong> </p>
+<ul>
+<li>Alt+Shift+1 窗口分屏，恢复默认1屏（非小键盘的数字）</li>
+<li>Alt+Shift+2 左右分屏-2列</li>
+<li>Alt+Shift+3 左右分屏-3列</li>
+<li>Alt+Shift+4 左右分屏-4列</li>
+<li>Alt+Shift+5 等分4屏</li>
+<li>Alt+Shift+8 垂直分屏-2屏</li>
+<li>Alt+Shift+9 垂直分屏-3屏</li>
+</ul>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      
+        <categories>
+            
+            <category> Tools </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Tools </tag>
+            
+            <tag> Effecient </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[JS-Constant-dropping-wears-the-stone-2]]></title>
       <url>/2017/10/06/JS-Constant-dropping-wears-the-stone-2/</url>
       <content type="html"><![CDATA[<p>##MVC-MVP-MVVM理解</p>
@@ -316,7 +390,7 @@
 <pre><code>1.&lt;http://example.com/&gt;
 2.&lt;address@example.com&gt;
 </code></pre></div></div><br><br><strong>显示效果</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"><blockquote>
-<p><a href="http://example.com/" target="_blank" rel="external">http://example.com/</a><br><a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#58;&#97;&#100;&#x64;&#x72;&#101;&#x73;&#115;&#x40;&#101;&#x78;&#97;&#109;&#112;&#x6c;&#x65;&#46;&#x63;&#x6f;&#x6d;">&#97;&#100;&#x64;&#x72;&#101;&#x73;&#115;&#x40;&#101;&#x78;&#97;&#109;&#112;&#x6c;&#x65;&#46;&#x63;&#x6f;&#x6d;</a></p>
+<p><a href="http://example.com/" target="_blank" rel="external">http://example.com/</a><br><a href="&#109;&#97;&#x69;&#108;&#116;&#111;&#58;&#97;&#x64;&#x64;&#x72;&#101;&#x73;&#115;&#64;&#x65;&#x78;&#x61;&#109;&#112;&#x6c;&#101;&#46;&#99;&#111;&#x6d;">&#97;&#x64;&#x64;&#x72;&#101;&#x73;&#115;&#64;&#x65;&#x78;&#x61;&#109;&#112;&#x6c;&#101;&#46;&#99;&#111;&#x6d;</a></p>
 </blockquote>
 </div></div><br><br><h4 id="index3_pot">4.4 锚点</h4><br><br>&emsp;&emsp;锚点是网页内的超链接，用于定位文档内部元素，实现页面内部的跳转功能。markdown锚点感觉有点毒性。<br><br><strong>语法描述</strong><br><br>&emsp;&emsp; 在你要跳转的<strong>标题</strong>后插入<strong>锚点{<span>#</span>标记}</strong>,<strong>(ps:马丹{前有一个空格)</strong>,然后在文档跳转部分使用超链接形式<strong><code>[链接](#标记)</code></strong><br><br><strong>代码</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">code</div><div class="spoiler-content"><p>1.这里跳转到<a href="#test">锚点</a><br>2.<br>3.## 这里是锚点位置 {<span>#</span>test}或者<code>&lt;h2 id=&quot;test&quot;&gt;这里是锚点位置&lt;/h2&gt;</code></p>
 </div></div><br><br><strong>效果</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"><blockquote>
@@ -517,8 +591,8 @@ cond(no)->sub->io</textarea><textarea id="flowchart-0-options" style="display: n
     </entry>
     
     <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links/index.html</url>
+      <title></title>
+      <url>/resume/index.html</url>
       <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
     </entry>
     
@@ -529,14 +603,14 @@ cond(no)->sub->io</textarea><textarea id="flowchart-0-options" style="display: n
     </entry>
     
     <entry>
-      <title></title>
-      <url>/resume/index.html</url>
+      <title><![CDATA[timeline]]></title>
+      <url>/timeline/index.html</url>
       <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
     </entry>
     
     <entry>
-      <title><![CDATA[timeline]]></title>
-      <url>/timeline/index.html</url>
+      <title><![CDATA[links]]></title>
+      <url>/links/index.html</url>
       <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
     </entry>
     

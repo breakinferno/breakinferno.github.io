@@ -39,7 +39,7 @@
     
     <title>
         
-            分类: Font-End | 
+            Sublime Text3 Quickly | 
         
         吕飞的博纳阁
     </title>
@@ -51,7 +51,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="吕飞">
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content="breakinferno">
+    <meta name="keywords" content="breakinferno,Tools,Effecient">
 
     <!-- Import lsloader -->
     <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(key){try{localStorage.removeItem(key)}catch(e){}};lsloader.setLS=function(key,val){try{localStorage.setItem(key,val)}catch(e){}};lsloader.getLS=function(key){var val="";try{val=localStorage.getItem(key)}catch(e){val=""}return val};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var keys=[];for(var i=0;i<localStorage.length;i++){keys.push(localStorage.key(i))}keys.forEach(function(key){var data=lsloader.getLS(key);if(window.oldVersion){var remove=window.oldVersion.reduce(function(p,c){return p||data.indexOf("/*"+c+"*/")!==-1},false);if(remove){lsloader.removeLS(key)}}})}catch(e){}};lsloader.clean();lsloader.load=function(jsname,jspath,cssonload,isJs){if(typeof cssonload==="boolean"){isJs=cssonload;cssonload=undefined}isJs=isJs||false;cssonload=cssonload||function(){};var code;code=this.getLS(jsname);if(code&&code.indexOf(versionString)===-1){this.removeLS(jsname);this.requestResource(jsname,jspath,cssonload,isJs);return}if(code){var versionNumber=code.split(versionString)[0];if(versionNumber!=jspath){console.log("reload:"+jspath);this.removeLS(jsname);this.requestResource(jsname,jspath,cssonload,isJs);return}code=code.split(versionString)[1];if(isJs){this.jsRunSequence.push({name:jsname,code:code});this.runjs(jspath,jsname,code)}else{document.getElementById(jsname).appendChild(document.createTextNode(code));cssonload()}}else{this.requestResource(jsname,jspath,cssonload,isJs)}};lsloader.requestResource=function(name,path,cssonload,isJs){var that=this;if(isJs){this.iojs(path,name,function(path,name,code){that.setLS(name,path+versionString+code);that.runjs(path,name,code)})}else{this.iocss(path,name,function(code){document.getElementById(name).appendChild(document.createTextNode(code));that.setLS(name,path+versionString+code)},cssonload)}};lsloader.iojs=function(path,jsname,callback){var that=this;that.jsRunSequence.push({name:jsname,code:""});try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(path,jsname,xhr.response);return}}that.jsfallback(path,jsname)}};xhr.send(null)}catch(e){that.jsfallback(path,jsname)}};lsloader.iocss=function(path,jsname,callback,cssonload){var that=this;try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(xhr.response);cssonload();return}}that.cssfallback(path,jsname,cssonload)}};xhr.send(null)}catch(e){that.cssfallback(path,jsname,cssonload)}};lsloader.iofonts=function(path,jsname,callback,cssonload){var that=this;try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(xhr.response);cssonload();return}}that.cssfallback(path,jsname,cssonload)}};xhr.send(null)}catch(e){that.cssfallback(path,jsname,cssonload)}};lsloader.runjs=function(path,name,code){if(!!name&&!!code){for(var k in this.jsRunSequence){if(this.jsRunSequence[k].name==name){this.jsRunSequence[k].code=code}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var script=document.createElement("script");script.appendChild(document.createTextNode(this.jsRunSequence[0].code));script.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(script);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var that=this;var script=document.createElement("script");script.src=this.jsRunSequence[0].path;script.type="text/javascript";this.jsRunSequence[0].status="loading";script.onload=function(){that.jsRunSequence.shift();if(that.jsRunSequence.length>0){that.runjs()}};document.body.appendChild(script)}};lsloader.tagLoad=function(path,name){this.jsRunSequence.push({name:name,code:"",path:path,status:"failed"});this.runjs()};lsloader.jsfallback=function(path,name){if(!!this.jsnamemap[name]){return}else{this.jsnamemap[name]=name}for(var k in this.jsRunSequence){if(this.jsRunSequence[k].name==name){this.jsRunSequence[k].code="";this.jsRunSequence[k].status="failed";this.jsRunSequence[k].path=path}}this.runjs()};lsloader.cssfallback=function(path,name,cssonload){if(!!this.cssnamemap[name]){return}else{this.cssnamemap[name]=1}var link=document.createElement("link");link.type="text/css";link.href=path;link.rel="stylesheet";link.onload=link.onerror=cssonload;var root=document.getElementsByTagName("script")[0];root.parentNode.insertBefore(link,root)};lsloader.runInlineScript=function(scriptId,codeId){var code=document.getElementById(codeId).innerText;this.jsRunSequence.push({name:scriptId,code:code});this.runjs()};lsloader.loadCombo=function(jslist){var updateList="";var requestingModules={};for(var k in jslist){var LS=this.getLS(jslist[k].name);if(!!LS){var version=LS.split(versionString)[0];var code=LS.split(versionString)[1]}else{var version=""}if(version==jslist[k].path){this.jsRunSequence.push({name:jslist[k].name,code:code,path:jslist[k].path})}else{this.jsRunSequence.push({name:jslist[k].name,code:null,path:jslist[k].path,status:"comboloading"});requestingModules[jslist[k].name]=true;updateList+=(updateList==""?"":";")+jslist[k].path}}var that=this;if(!!updateList){var xhr=new XMLHttpRequest;xhr.open("get",combo+updateList,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){that.runCombo(xhr.response,requestingModules);return}}else{for(var i in that.jsRunSequence){if(requestingModules[that.jsRunSequence[i].name]){that.jsRunSequence[i].status="failed"}}that.runjs()}}};xhr.send(null)}this.runjs()};lsloader.runCombo=function(comboCode,requestingModules){comboCode=comboCode.split("/*combojs*/");comboCode.shift();for(var k in this.jsRunSequence){if(!!requestingModules[this.jsRunSequence[k].name]&&!!comboCode[0]){this.jsRunSequence[k].status="comboJS";this.jsRunSequence[k].code=comboCode[0];this.setLS(this.jsRunSequence[k].name,this.jsRunSequence[k].path+versionString+comboCode[0]);comboCode.shift()}}this.runjs()}})();</script>
@@ -228,15 +228,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://breakinferno.info">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="分类: Font-End | 吕飞的博纳阁">
+    <meta property="og:title" content="Sublime Text3 Quickly | 吕飞的博纳阁">
     <meta property="og:image" content="http://breakinferno.info/img/favicon.png" />
     <meta property="og:description" content="">
-    
+    <meta property="og:article:tag" content="Tools"> <meta property="og:article:tag" content="Effecient"> 
 
+    
+        <meta property="article:published_time" content="Tue Oct 10 2017 20:19:57 GMT+0800" />
+        <meta property="article:modified_time" content="Tue Oct 10 2017 22:26:08 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="分类: Font-End | 吕飞的博纳阁">
+    <meta name="twitter:title" content="Sublime Text3 Quickly | 吕飞的博纳阁">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://breakinferno.info/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -244,13 +247,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://breakinferno.info/categories/Language/Font-End/index.html" />
+        <link rel="canonical" href="http://breakinferno.info/2017/10/10/Sublime-Text3-Quickly/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "http://breakinferno.info/2017/10/10/Sublime-Text3-Quickly/index.html",
+    "headline": "Sublime Text3 Quickly",
+    "datePublished": "Tue Oct 10 2017 20:19:57 GMT+0800",
+    "dateModified": "Tue Oct 10 2017 22:26:08 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "吕飞",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.png"
+        },
+        "description": "燃起希望之火,&emsp;&emsp;--鸿鹄焉知咸鱼之志"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "吕飞的博纳阁",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",Tools,Effecientbreakinferno",
+    "description": "",
+}
+</script>
 
 
     
@@ -293,225 +326,320 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
     
-        
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 41 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/10/06/JS-Constant-dropping-wears-the-stone-2/">JS-Constant-dropping-wears-the-stone-2</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            ##MVC-MVP-MVVM理解
-&emsp;&emsp;今天主要来看看MVC,MVP和MVVM的区别及联系。但是上网一搜找到了一个很好解释，那我就直接把他的做法改(chao)变(xi)一个
-###MVC(Model-View-Controller)
-&emsp;&emsp;总的来说，mvc是由发明图形化界面(GUI)的公司–美国施乐帕克研究中...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/10/06/JS-Constant-dropping-wears-the-stone-2/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="吕飞's avatar">
-            </div>
-            <div>
-                <strong>吕飞</strong>
-                <span>10月 06, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Language/">Language</a>, <a class="post_category-link" href="/categories/Language/Font-End/">Font-End</a>, <a class="post_category-link" href="/categories/Language/Font-End/Javascript/">Javascript</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/09/25/JS-Constant-dropping-wears-the-stone-1/">JS-Constant dropping wears the stone-1</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            文章背景&emsp;&emsp;由于九月校招，各种各样的面试和笔试，导致很久没有更新文章了。通过场场笔试挂，面试挂，已然怀疑人生，心情低落不可避免。以至于更没有心情更新了。但是，今天现在才十一点，离十二点还有一个小时，趁着这一个小时我就记...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/09/25/JS-Constant-dropping-wears-the-stone-1/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="吕飞's avatar">
-            </div>
-            <div>
-                <strong>吕飞</strong>
-                <span>9月 25, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Language/">Language</a>, <a class="post_category-link" href="/categories/Language/Font-End/">Font-End</a>, <a class="post_category-link" href="/categories/Language/Font-End/Javascript/">Javascript</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/09/08/React-sourceCode-analysis-1/">React源码分析1-react结构概述</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/09/08/React-sourceCode-analysis-1/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="吕飞's avatar">
-            </div>
-            <div>
-                <strong>吕飞</strong>
-                <span>9月 08, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Language/">Language</a>, <a class="post_category-link" href="/categories/Language/Font-End/">Font-End</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 41 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                Sublime Text3 Quickly
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>吕飞</strong>
+        <span>10月 10, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC5ElEQVR42u3bwU4kMQwE0Pn/n4brSgtDldMadSevTwhBT172YFz2vr6OfF7Y2NjY2NjY2NjYt2S/4ueHF/3z/eTrP4719if/f2d7ZmxsbOy92esHaq8guZrfGLMzY2NjY5/ATj7mh9fFRS65slmBTK4GGxsbG7ttGOpjLbRA2NjY2NhXsRNADn5MAcPGxsa+DbuN5tsxQ1LY8qL40SwNGxsb+/bs/ND3+fqj821sbGzsG7PbZyXQn7Uo7erPryfHxsbG3pTdHi5f1mkxK21M1NJgY2NjH8lOStfsJ9dXKtslIWxsbOwT2O0R28XKq34ribqGUxFsbGzsh7PzwCgZ2a6sV7Zj3aX5NjY2NvbD2cmr89Zi1uQkl9iOeLGxsbFPY7cD3ZUYKAmh2jFD9I+EjY2NfSQ7iXWSMjMLsFYCJmxsbOxz2O9D9rwhyQvMrBzOmhlsbGzsE9hRsF4uULZFMW9OZktF2NjY2CezZ0PfvOS05bM9AzY2NvZp7KviofVV+yRUumw8gI2Njb0FOx/ZJhcxa07yq29LIzY2Nvbe7PfHbQvYyjBgFhsVV4yNjY29KTv/yDw2SlZqZuPbNvzCxsbGPo2dv7QdxM4WfWYrnksdGDY2NvYW7PYP/SSmnx09b5CG/3sAGxsbewt2PhiYRfYr65izUAkbGxv7ZPZKQ9KuS85al2QIvTQVwcbGxn44O2kn2hZlJWzKVzAvbkWwsbGxH87OA6a2gOWwdqgQtU/Y2NjYB7DbED8pLeufslLYsLGxsU9gt09elvJ4KBn0tp/7R6iEjY2NvRH7FT/rYdPKMlDbFEV1GxsbG3sjdl602iPOCtJsCHHZVAQbGxv7sew2EqpjnQ8+9aYSNjY29mHs98UjH8quX2hSCLGxsbGx1wOdtuVo3/mhVgQbGxv79uyV4W77u0kJzBeDonEyNjY29tbsPKaZNR755eaYOtLCxsbG3pR9zoONjY2NjY2NjY19m+cbfQYggquNGaEAAAAASUVORK5CYII=">
+    
+</ul>
+
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/Effecient/">Effecient</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/Tools/">Tools</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+        
+            <!-- Busuanzi Views -->
+            <a class="post_share-link" href="#">
+                <li class="mdl-menu__item">
+                    <span id="busuanzi_container_page_pv">
+                        <span id="busuanzi_value_page_pv"></span>&nbsp;浏览量
+                    </span>
+                </li>
+            </a>
+        
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Sublime Text3 Quickly&url=http://breakinferno.info/2017/10/10/Sublime-Text3-Quickly/index.html&pic=http://breakinferno.info/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Sublime Text3 Quickly&url=http://breakinferno.info/2017/10/10/Sublime-Text3-Quickly/index.html&via=吕飞" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://breakinferno.info/2017/10/10/Sublime-Text3-Quickly/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://breakinferno.info/2017/10/10/Sublime-Text3-Quickly/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=吕飞的博纳阁&title=Sublime Text3 Quickly&summary=&pics=http://breakinferno.info/img/favicon.png&url=http://breakinferno.info/2017/10/10/Sublime-Text3-Quickly/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://breakinferno.info/2017/10/10/Sublime-Text3-Quickly/index.html&text=Sublime Text3 Quickly" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>###Sublime Text 快捷方式总结</p>
+<p>&emsp;&emsp;在使用Sublime Text开发程序过程中，如果知道一点常见的快捷方式，能够提高我们开发代码的效率。让我们能够更加随心所欲的畅写我们的代码。So，让我们来看看那些常见的Sublime text快捷键吧.</p>
+<p>&emsp;&emsp;我们按照使用频率来进行排序吧(个人使用频率)。</p>
+<p>####选择</p>
+<p><strong>☆☆☆☆☆</strong></p>
+<ul>
+<li>Ctrl+D <strong>选中</strong>光标选中文本，继续操作会选中下一个相同文本</li>
+<li>Alt+F3 Ctrl+D的加强版，直接选取所有相同文本</li>
+<li>Ctrl+Enter 向下<strong>插入</strong>新行，不用每次将光标移到最后再Enter(Ctrl+Shift+Enter 向上插入)</li>
+<li>Ctrl+Shift+[/] 选中代码，<strong>折叠/展开</strong>代码</li>
+<li>Ctrl+Shift+↑/↓ 上/下行代码<strong>交换</strong></li>
+</ul>
+<p><strong>☆☆☆☆</strong></p>
+<ul>
+<li>Ctrl+Shift+←/→ 向左/右<strong>选择</strong>代码<br>+Ctrl+L 选中整行，继续操作选择下一行(和Shift+↓相同)<br>+Ctrl+Shift+L 选中多行后，快捷键在每行行尾插入光标</li>
+</ul>
+<p>####编辑</p>
+<p><strong>☆☆☆☆☆</strong></p>
+<ul>
+<li>Ctrl+Shift+D 复制当前行到下一行</li>
+<li>Ctrl+Shift+K 删除当前行</li>
+<li>Ctrl+K+K 删除当前行光标至行尾的所有内容</li>
+<li>Ctrl+Z/Y 撤销/恢复</li>
+</ul>
+<p><strong>☆☆☆☆</strong></p>
+<ul>
+<li>Ctrl+J 合并多行代码为一行</li>
+<li>Ctrl+K+U 转化为大写</li>
+<li>Ctrl+K+L 转化为小写</li>
+</ul>
+<p>####搜索</p>
+<p><strong>☆☆☆☆☆</strong></p>
+<ul>
+<li>Ctrl+F 查找</li>
+<li>Ctrl+H 查找替换</li>
+<li>Ctrl+Shift+F 文件内查找</li>
+<li>Ctrl+P 打开搜索框查找：1、输入当前项目中的文件名，快速搜索文件，2、输入@和关键字，查找文件中函数名，3、输入：和数字，跳转到文件中该行代码，4、输入#和关键字，查找变量名。</li>
+<li>Ctrl+R Ctrl+P的函数名搜索</li>
+<li>Ctrl+G Ctrl+P的行数搜索</li>
+<li>Ctrl+: Ctrl+P的变量搜索</li>
+</ul>
+<p>####分屏</p>
+<p><strong>☆☆☆☆</strong> </p>
+<ul>
+<li>Alt+Shift+1 窗口分屏，恢复默认1屏（非小键盘的数字）</li>
+<li>Alt+Shift+2 左右分屏-2列</li>
+<li>Alt+Shift+3 左右分屏-3列</li>
+<li>Alt+Shift+4 左右分屏-4列</li>
+<li>Alt+Shift+5 等分4屏</li>
+<li>Alt+Shift+8 垂直分屏-2屏</li>
+<li>Alt+Shift+9 垂直分屏-3屏</li>
+</ul>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+        
+    
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 gitcoment -->
+<div id="gitment-comment">
+    <!-- Gitment 评论框 -->
+<div id="container"></div>
+</div>
+<style>
+    #gitment-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    var gitment = new Gitment({
+        //id: '页面 ID', // 可选。默认为 location.href
+        owner: 'breakinferno',
+        repo: 'breakinferno.github.io',
+        oauth: {
+            client_id: '0b8298d1c22589e4dbfd',
+            client_secret: 'a7275c5822f739ec364759f3c155804bc7735e78',
+        },
+    })
+    gitment.render('container')
+</script>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/10/06/JS-Constant-dropping-wears-the-stone-2/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
