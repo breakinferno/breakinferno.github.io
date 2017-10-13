@@ -17,7 +17,9 @@
 </ul>
 <p><strong>☆☆☆☆</strong></p>
 <ul>
-<li>Ctrl+Shift+←/→ 向左/右<strong>选择</strong>代码<br>+Ctrl+L 选中整行，继续操作选择下一行(和Shift+↓相同)<br>+Ctrl+Shift+L 选中多行后，快捷键在每行行尾插入光标</li>
+<li>Ctrl+Shift+←/→ 向左/右<strong>选择</strong>代码</li>
+<li>Ctrl+L 选中整行，继续操作选择下一行(和Shift+↓相同)</li>
+<li>Ctrl+Shift+L 选中多行后，快捷键在每行行尾插入光标</li>
 </ul>
 <h4 id="编辑"><a href="#编辑" class="headerlink" title="编辑"></a>编辑</h4><p><strong>☆☆☆☆☆</strong></p>
 <ul>
@@ -52,6 +54,9 @@
 <li>Alt+Shift+8 垂直分屏-2屏</li>
 <li>Alt+Shift+9 垂直分屏-3屏</li>
 </ul>
+<p>###每日积累</p>
+<p>&emsp;&emsp;今天没啥好说的，来个placeholder样式更改的写法吧</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">//placeholder 样式更改</div><div class="line">::-webkit-input-placeholder&#123;</div><div class="line">    color: #d1d1d1;</div><div class="line">&#125;</div><div class="line">:-moz-placeholder &#123;</div><div class="line">    /* Mozilla Firefox 4 to 18 */</div><div class="line">    color: #d1d1d1;</div><div class="line">    opacity: 1;</div><div class="line">&#125;</div><div class="line">::-moz-placeholder &#123;</div><div class="line">    /* Mozilla Firefox 19+ */</div><div class="line">    color: #d1d1d1;</div><div class="line">    opacity: 1;</div><div class="line">&#125;</div><div class="line">:-ms-input-placeholder &#123;</div><div class="line">    /* Internet Explorer 10+ */</div><div class="line">    color: #d1d1d1;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       
         <categories>
@@ -385,7 +390,7 @@
 <pre><code>1.&lt;http://example.com/&gt;
 2.&lt;address@example.com&gt;
 </code></pre></div></div><br><br><strong>显示效果</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"><blockquote>
-<p><a href="http://example.com/" target="_blank" rel="external">http://example.com/</a><br><a href="&#109;&#x61;&#105;&#108;&#x74;&#x6f;&#58;&#97;&#x64;&#x64;&#x72;&#x65;&#115;&#115;&#x40;&#101;&#x78;&#97;&#109;&#112;&#x6c;&#x65;&#x2e;&#99;&#x6f;&#109;">&#97;&#x64;&#x64;&#x72;&#x65;&#115;&#115;&#x40;&#101;&#x78;&#97;&#109;&#112;&#x6c;&#x65;&#x2e;&#99;&#x6f;&#109;</a></p>
+<p><a href="http://example.com/" target="_blank" rel="external">http://example.com/</a><br><a href="&#109;&#x61;&#x69;&#108;&#116;&#111;&#x3a;&#x61;&#100;&#100;&#x72;&#101;&#x73;&#x73;&#64;&#101;&#x78;&#97;&#x6d;&#x70;&#108;&#x65;&#46;&#x63;&#111;&#109;">&#x61;&#100;&#100;&#x72;&#101;&#x73;&#x73;&#64;&#101;&#x78;&#97;&#x6d;&#x70;&#108;&#x65;&#46;&#x63;&#111;&#109;</a></p>
 </blockquote>
 </div></div><br><br><h4 id="index3_pot">4.4 锚点</h4><br><br>&emsp;&emsp;锚点是网页内的超链接，用于定位文档内部元素，实现页面内部的跳转功能。markdown锚点感觉有点毒性。<br><br><strong>语法描述</strong><br><br>&emsp;&emsp; 在你要跳转的<strong>标题</strong>后插入<strong>锚点{<span>#</span>标记}</strong>,<strong>(ps:马丹{前有一个空格)</strong>,然后在文档跳转部分使用超链接形式<strong><code>[链接](#标记)</code></strong><br><br><strong>代码</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">code</div><div class="spoiler-content"><p>1.这里跳转到<a href="#test">锚点</a><br>2.<br>3.## 这里是锚点位置 {<span>#</span>test}或者<code>&lt;h2 id=&quot;test&quot;&gt;这里是锚点位置&lt;/h2&gt;</code></p>
 </div></div><br><br><strong>效果</strong><br><br><div class="spoiler collapsed"><div class="spoiler-title">result</div><div class="spoiler-content"><blockquote>
@@ -580,20 +585,8 @@ cond(no)->sub->io</textarea><textarea id="flowchart-0-options" style="display: n
     </entry>
     
     <entry>
-      <title></title>
-      <url>/resume/index.html</url>
-      <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[gallery]]></title>
       <url>/gallery/index.html</url>
-      <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags/index.html</url>
       <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
     </entry>
     
@@ -606,6 +599,18 @@ cond(no)->sub->io</textarea><textarea id="flowchart-0-options" style="display: n
     <entry>
       <title><![CDATA[timeline]]></title>
       <url>/timeline/index.html</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>/resume/index.html</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags/index.html</url>
       <content type="html"><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
     </entry>
     
